@@ -1,0 +1,775 @@
+Package: libnginx-mod-http-auth-pam
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 62
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-auth-pam_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 30588
+SHA256: 484b821a6107c76c2e5064ee9ca870cacfc857c7cb5bf96b00f9869c0a248420
+SHA1: 3a884efaa147d803ec65cd2f2a322fb67f6d2daf
+MD5sum: 183c7dcb03fc879462e1d7276690d1ec
+Description: PAM authentication module for Nginx
+ The nginx_http_auth_pam module enables authentication using PAM.
+ .
+ The module uses PAM as a backend for simple http authentication. It
+ also allows setting the pam service name to allow more fine grained control.
+
+Package: libnginx-mod-http-cache-purge
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 70
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-cache-purge_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 32912
+SHA256: a08ae21d36ef5819f147f502779bef34ff7227d0af9dcebde7444b10c802a20c
+SHA1: b064816abfac49b2d851ce4966e8d8a3d76d7480
+MD5sum: fc3b00f268974f2ca5892892baf07a59
+Description: Purge content from Nginx caches
+ Cache Purge module adds purging capabilities to Nginx. It allows purging
+ content from caches used by all of Nginx proxy modules, like FastCGI, Proxy,
+ SCGI and uWSGI.
+
+Package: libnginx-mod-http-dav-ext
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 83
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14), libxml2 (>= 2.7.4)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-dav-ext_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 37932
+SHA256: e4b952d776228654966f720db1c45b2c4f5694b513944f13bc3563b26778f0f7
+SHA1: 14420fc9f24507d1b54779442c08de44bb4175ab
+MD5sum: e53dfd678f43203b7664155791d5c27f
+Description: WebDAV missing commands support for Nginx
+ WebDAV Ext module complements the Nginx WebDAV module to provide a full
+ WebDAV support.
+ .
+ WebDAV Ext provides the missing PROPFIND & OPTIONS methods.
+
+Package: libnginx-mod-http-echo
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 92
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-echo_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 42040
+SHA256: 47d6d061a6f643c2fb50f2858a53f3ffda846af31173154a9536514ccf3402ff
+SHA1: 6971e21d10f82c8ac5a626cb9ba77a2e113d9816
+MD5sum: f9221633a76aad5c2113534201499cb6
+Description: Bring echo and more shell style goodies to Nginx
+ Echo module wraps lots of Nginx internal APIs for streaming input and output,
+ parallel/sequential subrequests, timers and sleeping, as well as various meta
+ data accessing.
+ .
+ Basically it provides various utilities that help testing and debugging of
+ other modules by trivially emulating different kinds of faked subrequest
+ locations.
+ .
+ People will also find it useful in real-world applications that need to:
+ .
+ 1. Serve static contents directly from memory.
+ 2. Wrap the upstream response with custom header and footer (kinda like the
+    addition module but with contents read directly from the config file and
+    Nginx variables).
+ 3. Merge contents of various "Nginx locations" (i.e., subrequests) together in
+    a single main request (using echo_location and its friends).
+
+Package: libnginx-mod-http-fancyindex
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 79
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14)
+Suggests: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-fancyindex_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 35392
+SHA256: 0526f4d34a98de5520834802a4d533fa256afa27df1bd68961425e8816561aa8
+SHA1: 994d01daf53168d0b46d54ba1b891373b151dd36
+MD5sum: 2513f26dac12f94026331ff162f4a9ce
+Description: Fancy indexes module for the Nginx
+ The Fancy Index module makes possible the generation of file listings, like
+ the built-in autoindex module does, but adding a touch of style by introducing
+ ways to customize the result.
+
+Package: libnginx-mod-http-geoip
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 71
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14), libgeoip1 (>= 1.6.12)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-geoip_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 31708
+SHA256: fe138bea22f116680599527760ebe788b072ecbdefb59b1d5c02fb6d219a47b5
+SHA1: 4b6929ad79fc9f033d9519c819a4f579715f45fa
+MD5sum: a9aed7c5de39653d616a1efca81b8795
+Description: GeoIP HTTP module for Nginx
+ The ngx_http_geoip module creates variables with values depending on the
+ client IP address, using the precompiled MaxMind databases.
+ .
+ Those variables include country, region, city, latitude, longitude, postal
+ code, etc.
+
+Package: libnginx-mod-http-geoip2
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 66
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14), libmaxminddb0 (>= 1.0.2)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-geoip2_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 32224
+SHA256: 296d6aedf664a9286183fc8acd3f198f22a15796ae4031f229b7bd5acb50f445
+SHA1: acccb548c0aac1518c28973d063772ea8a77f528
+MD5sum: bb8013ae6f7e6553ed8854eb4a93c93d
+Description: GeoIP2 HTTP module for Nginx
+ The ngx_http_geoip2 module creates variables with values depending on the
+ client IP address, using the precompiled MaxMind GeoIP2 databases.
+ .
+ Those variables include country, region, city, latitude, longitude, postal
+ code, etc.
+
+Package: libnginx-mod-http-headers-more-filter
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 79
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-headers-more-filter_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 35944
+SHA256: 09ceca65c449e73cbd26e82fa05566b76cc2eb66cdda90bd755b90fbf9a000bf
+SHA1: 64b96aca6b1a6be9fa660c7c61e582c4adc96396
+MD5sum: 1b992bda52191645b314042925c888c9
+Description: Set and clear input and output headers for Nginx
+ The Headers More module allows you to add, set, or clear any output or input
+ header that you specify.
+ .
+ This is an enhanced version of the standard headers module because it provides
+ more utilities like resetting or clearing "builtin headers" like Content-Type,
+ Content-Length, and Server.
+
+Package: libnginx-mod-http-image-filter
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 75
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14), libgd3 (>= 2.1.0~alpha~)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-image-filter_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 35480
+SHA256: 6072eb6260b3cc94aa38ec9417da554ff8afc560f5e3ad3c517de53066e7e3aa
+SHA1: 682aa47fe4f99c850ffa4c12bcd268c1a3ab36f1
+MD5sum: 4c91718c9020e3940de5e2194edbeef0
+Description: HTTP image filter module for Nginx
+ The ngx_http_image_filter module is a filter that transforms images in JPEG,
+ GIF, and PNG formats.
+ .
+ The module supports filters such as rotate, resize, crop, quality, sharpening,
+ interlacing and more.
+
+Package: libnginx-mod-http-ipdb
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 71
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14), libjson-c5 (>= 0.15)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-ipdb_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 33336
+SHA256: fa2d7c420b10e9ce77a241cd2970814bb43bbd28fa62fdd2ce351b3e512cfe34
+SHA1: 4dc4c64c13c07449cc44bbb10d9fb769c173ddf5
+MD5sum: 283e6c648cc75a521b28c8bd5bed0dce
+Description: IPDB HTTP module for Nginx
+
+Package: libnginx-mod-http-lua
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 488
+Depends: libnginx-mod-http-ndk (= 1.19.10-1sb+111k+groovy1), nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14), libluajit-5.1-2 (>= 2.0.4+dfsg)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-lua_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 178232
+SHA256: d84261b14062b86dc17ec182ccda595fc489ed239f4d31dab45989ee35aa9317
+SHA1: a7190d7e742a12cbdbdbfc73e0d7f9e04439f999
+MD5sum: 9d323e49fb454bfd907f79291cdccb7d
+Description: Lua module for Nginx
+ Embed Lua runtime into nginx.
+ .
+ This module embeds Lua, via the standard Lua 5.1 interpreter or LuaJIT
+ 2.0/2.1, into Nginx and by leveraging Nginx's subrequests, allows the
+ integration of the powerful Lua threads (Lua coroutines) into the Nginx event
+ model.
+
+Package: libnginx-mod-http-ndk
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 66
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.4)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-ndk_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 30992
+SHA256: 1268cdac7067333d587ad390f5f4761a2ce892b10742beb25ca6b27871aa3ce4
+SHA1: 71a2302137ae63c7b6908057cd70682a20a4bfc7
+MD5sum: 81cb7f70d1f9b01d683944e07940dc75
+Description: Nginx Development Kit module
+ The NDK is an Nginx module that is designed to extend the core functionality of
+ the excellent Nginx webserver in a way that can be used as a basis of other
+ Nginx modules.
+ .
+ It has functions and macros to deal with generic tasks that don't currently
+ have generic code as part of the core distribution. The NDK itself adds few
+ features that are seen from a user's point of view - it's just designed to help
+ reduce the code that Nginx module developers need to write.
+
+Package: libnginx-mod-http-perl
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 117
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), perl (>= 5.30.3-4), perlapi-5.30.3, libc6 (>= 2.14), libperl5.30 (>= 5.30.0)
+Recommends: nginx
+Replaces: nginx-extras (<< 1.9.14-1)
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-perl_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 43876
+SHA256: 1103d9b6394863f13e4fa4c25cf43bc27f5ab1e1800ca627be997457b5852183
+SHA1: 81f06ef59104044ee84ef9c0f5459dc11858d721
+MD5sum: f92c5b654fd15a72ca98b7d284cc6eeb
+Description: Perl module for Nginx
+ Embed Perl runtime into nginx.
+ .
+ The ngx_http_perl module is used to implement location and variable handlers
+ in Perl and insert Perl calls into SSI.
+ .
+ Note that this module is marked experimental.
+
+Package: libnginx-mod-http-subs-filter
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 66
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-subs-filter_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 33568
+SHA256: 09619025a97fe0133f0838d0f6771af7401266a4f7ada7c5b9daf36d0fe2bec2
+SHA1: c3ad1de7b0258e92f80a714683f4c0ecd3a8b189
+MD5sum: 0ddebd00a4f5f549003cf6c459bf4ada
+Description: Substitution filter module for Nginx
+ Subsitution Nginx module can do both regular expression and fixed string
+ substitutions on response bodies. The module is quite different from Nginx's
+ native Substitution module. It scans the output chains buffer and
+ matches string line by line, just like Apache's mod_substitute.
+
+Package: libnginx-mod-http-uploadprogress
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 83
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-uploadprogress_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 37300
+SHA256: f79e54216670e87779b24fefaa718c352ea11c3685397b6ec3d37940ad8df6f7
+SHA1: de059f838bfcb9a08fcafa414a13331ed3319881
+MD5sum: e6d3fac20e18858b366704d36724ce5a
+Description: Upload progress system for Nginx
+ Upload progress module is an implementation of an upload progress system, that
+ monitors RFC1867 POST uploads as they are transmitted to upstream servers.
+ .
+ It works by tracking the uploads proxied by Nginx to upstream servers without
+ analysing the uploaded content and offers a web API to report upload progress
+ in Javscript, Json or any other format.
+
+Package: libnginx-mod-http-upstream-fair
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 66
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.4)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-upstream-fair_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 33648
+SHA256: d89e99a2920fc3efbfea20000e3f550d385369b37dbe284c4883eac06dd81ca2
+SHA1: a036640376e9c1b52b08e7f5954665a05cd74e33
+MD5sum: b107669b8e9d3e501ba90776f939e879
+Description: Nginx Upstream Fair Proxy Load Balancer
+ The Nginx fair proxy balancer enhances the standard round-robin load balancer
+ provided with Nginx so that it tracks busy backend servers and adjusts
+ balancing accordingly.
+
+Package: libnginx-mod-http-xslt-filter
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 70
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-xslt-filter_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 33712
+SHA256: ff25d65ae4e4506a6146d8c72d3811de3d5b7d3d191d9a193e2c30203ce36c94
+SHA1: 8a9bbafa8d1d0b266703ab85cc34674c09344350
+MD5sum: 93e2b34ad64f7312177ed8cb1c39cee6
+Description: XSLT Transformation module for Nginx
+ The ngx_http_xslt_filter module is a filter that transforms XML responses
+ using one or more XSLT stylesheets.
+ .
+ The transformation can be adjusted by setting the relevant configuration
+ parameters.
+
+Package: libnginx-mod-mail
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 166
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-mail_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 65788
+SHA256: 7518636dedce956633564d52a169d597fdb7a615b80eef3ae206bc3f6309133e
+SHA1: df751f8dd2cb519859335b8a27a4a4ac4e55ca65
+MD5sum: 11149b2f0cabcdef7d9c040c4aae79e4
+Description: Mail module for Nginx
+ The nginx_mail module adds mail proxy support to nginx.
+ .
+ The module supports proxying all the standard mail protocols such as IMAP,
+ POP3 & SMTP.
+
+Package: libnginx-mod-nchan
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 622
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.29)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-nchan_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 230532
+SHA256: 09ec63dcbcc2b53b8032d95e41cea642bdc056c86d5ec0c88bbf47d591c5ebf3
+SHA1: 09ab9ece225ff28d381f07d184c3eb179a2dee79
+MD5sum: ea3949b8a89284b3e205ae0c75251b24
+Description: Fast, flexible pub/sub server for Nginx
+ Nchan is a scalable, flexible pub/sub server for the modern web, It can be
+ configured as a standalone server, or as a shim between your application and
+ tens, thousands, or millions of live subscribers. It can buffer messages in
+ memory, on-disk, or via Redis. All connections are handled asynchronously and
+ distributed among any number of worker processes. It can also scale to many
+ nginx server instances with Redis.
+ .
+ Full documentation available at https://nchan.slact.net
+
+Package: libnginx-mod-rtmp
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 372
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.28)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-rtmp_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 145376
+SHA256: 3f7a768cfaddf844282c15e0c182a3496c68b83d7cba7631393c790ee7138d87
+SHA1: 1422c631be7a8083b50b2dcc68511df14cf078d0
+MD5sum: 25420581b5ad9a93438b5890e9516067
+Description: RTMP support for Nginx
+ The nginx RTMP module is a fully-featured streaming solution implemented in
+ nginx.
+ .
+ It provides the following features:
+  - Live streaming with RTMP, HLS and MPEG-DASH;
+  - RTMP Video on Demand from local or HTTP sources;
+  - Stream relay support via a push or pull model;
+  - Integrated stream recording;
+  - and more.
+
+Package: libnginx-mod-stream
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 229
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-stream_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 88824
+SHA256: 2028cbe553c66ae1f291b6e6a7e5314950a0df3a8599a46e926d4b8da269699e
+SHA1: 6fd6df8ca1a9a268b319b49f36401c99a40c2d47
+MD5sum: a942e69dfc1e9f946e5cbc59c9ad5102
+Description: Stream module for Nginx
+ The nginx_stream module adds stream proxy support to nginx.
+ .
+ Stream module supports loadbalancing & proxying to TCP servers. The module
+ also supports ACLs/connection limiting and configuring multiple operational
+ parameters.
+
+Package: libnginx-mod-stream-geoip
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 67
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14), libgeoip1 (>= 1.6.12), libnginx-mod-stream (= 1.19.10-1sb+111k+groovy1)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-stream-geoip_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 30888
+SHA256: 3a6e5aad93e052321703a8a98829fe1a427b52d2793aa13ba1960df27d5fe82a
+SHA1: 72c3b051a9f04caae7b87c3ae128bc7114e0746f
+MD5sum: a711b580b80b3c527d3c7ca8c5da577f
+Description: GeoIP Stream module for Nginx
+ The ngx_stream_geoip module creates variables with values depending on the
+ client IP address, using the precompiled MaxMind databases.
+ .
+ Those variables include country, region, city, latitude, longitude, postal
+ code, etc.
+
+Package: libnginx-mod-stream-geoip2
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 66
+Depends: nginx-common (= 1.19.10-1sb+111k+groovy1), libc6 (>= 2.14), libmaxminddb0 (>= 1.0.2), libnginx-mod-stream (= 1.19.10-1sb+111k+groovy1)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-stream-geoip2_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 31844
+SHA256: f15fc2a03c3c0b313c07dad9e04145398c2ee82d5a0144ffee88161d1b4faaa5
+SHA1: dae67aa5fd4a9d2d96d781bec9eb4b3da3fe32cf
+MD5sum: 474b5db00f602722159f93a85df8739b
+Description: GeoIP2 Stream module for Nginx
+ The ngx_stream_geoip2 module creates variables with values depending on the
+ client IP address, using the precompiled MaxMind GeoIP2 databases.
+ .
+ Those variables include country, region, city, latitude, longitude, postal
+ code, etc.
+
+Package: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 38
+Depends: nginx-core (<< 1.19.10-1sb+111k+groovy1.1~) | nginx-full (<< 1.19.10-1sb+111k+groovy1.1~) | nginx-light (<< 1.19.10-1sb+111k+groovy1.1~) | nginx-extras (<< 1.19.10-1sb+111k+groovy1.1~), nginx-core (>= 1.19.10-1sb+111k+groovy1) | nginx-full (>= 1.19.10-1sb+111k+groovy1) | nginx-light (>= 1.19.10-1sb+111k+groovy1) | nginx-extras (>= 1.19.10-1sb+111k+groovy1)
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx_1.19.10-1sb+111k+groovy1_all.deb
+Size: 26116
+SHA256: 0730ab145007dd46607a51a5ad5ce3659921e1bd78b2d5d91437baf995415f52
+SHA1: 907550b7714f2258e2577a82b094cfa78d7262a7
+MD5sum: 477197e4f3ef8d73021ba6470fb7eacd
+Description: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-core (by default),
+ nginx-full, nginx-light or nginx-extras.
+
+Package: nginx-common
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 289
+Depends: lsb-base (>= 3.0-6), debconf (>= 0.5) | debconf-2.0
+Suggests: fcgiwrap, nginx-doc, ssl-cert
+Multi-Arch: foreign
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-common_1.19.10-1sb+111k+groovy1_all.deb
+Size: 71252
+SHA256: 3c88f2d3762b34b75bcee425bc85d988f153b1703f7864480ec9932612219542
+SHA1: b26f1c15b8feef7e4c19a0d7b949e6ebe0845be3
+MD5sum: 932ed8a016ff373c07d2d5bdd6961b1c
+Description: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+
+Package: nginx-core
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 4426
+Depends: libnginx-mod-http-geoip (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-image-filter (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-xslt-filter (= 1.19.10-1sb+111k+groovy1), libnginx-mod-mail (= 1.19.10-1sb+111k+groovy1), libnginx-mod-stream (= 1.19.10-1sb+111k+groovy1), libnginx-mod-stream-geoip (= 1.19.10-1sb+111k+groovy1), nginx-common (= 1.19.10-1sb+111k+groovy1), iproute2, libbrotli1 (>= 0.6.0), libc6 (>= 2.32), libcrypt1 (>= 1:4.1.0), libpcre3, zlib1g (>= 1:1.1.4)
+Suggests: nginx-doc (= 1.19.10-1sb+111k+groovy1)
+Conflicts: nginx-extras, nginx-light
+Breaks: nginx (<< 1.4.5-1), nginx-full (<< 1.18.0-1)
+Replaces: nginx-full (<< 1.18.0-1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-core_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 1641060
+SHA256: f8526d1d014bd4132c9ef527ba2e9cfc5b7f873b0c04d77970e01a33ed5f8144
+SHA1: f6de67c7decb7bfdc209bcca27e2abed20cdde40
+MD5sum: 8ea5833678b3cf446ab290f8932a7859
+Description: nginx web/proxy server (standard version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx identical to that of nginx-full,
+ but without any third-party modules, and only modules in the original
+ nginx code base.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, GeoIP, Gunzip,
+ Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log, Real IP,
+ Slice, SSI, SSL, SSL Preread, Stub Status, Substitution, Thread  Pool,
+ Upstream, User ID, XSLT.
+ .
+ OPTIONAL MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ OPTIONAL STREAM MODULES: Stream Core, GeoIP
+
+Package: nginx-doc
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 63
+Multi-Arch: foreign
+Homepage: https://nginx.net
+Priority: optional
+Section: doc
+Filename: pool/main/n/nginx/nginx-doc_1.19.10-1sb+111k+groovy1_all.deb
+Size: 37540
+SHA256: fdf206f05843e25a1b839c17bdff4c3152e5d08cc82d434ff3c7580b687babc8
+SHA1: 09d3666be99b6e6ea6b367591fb042057941a128
+MD5sum: 4e6b50ad2424cb35cfaadfb58cc2e9c1
+Description: small, powerful, scalable web/proxy server - documentation
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides extra documentation to help unleash the power of Nginx.
+
+Package: nginx-extras
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 4465
+Depends: libnginx-mod-http-auth-pam (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-cache-purge (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-dav-ext (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-echo (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-fancyindex (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-geoip (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-geoip2 (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-headers-more-filter (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-image-filter (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-lua (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-perl (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-subs-filter (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-uploadprogress (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-upstream-fair (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-xslt-filter (= 1.19.10-1sb+111k+groovy1), libnginx-mod-mail (= 1.19.10-1sb+111k+groovy1), libnginx-mod-nchan (= 1.19.10-1sb+111k+groovy1), libnginx-mod-stream (= 1.19.10-1sb+111k+groovy1), libnginx-mod-stream-geoip (= 1.19.10-1sb+111k+groovy1), libnginx-mod-stream-geoip2 (= 1.19.10-1sb+111k+groovy1), libnginx-mod-http-ipdb (= 1.19.10-1sb+111k+groovy1), nginx-common (= 1.19.10-1sb+111k+groovy1), iproute2, libbrotli1 (>= 0.6.0), libc6 (>= 2.32), libcrypt1 (>= 1:4.1.0), libpcre3, zlib1g (>= 1:1.1.4)
+Suggests: nginx-doc (= 1.19.10-1sb+111k+groovy1)
+Conflicts: nginx-core, nginx-light
+Breaks: nginx (<< 1.4.5-1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-extras_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 1654896
+SHA256: d4fdee44896da0b6d0cd56253b86017185372d275df8bb3bcdb6f2104312288f
+SHA1: b4ff431700d176b5112ae2e300e40b70108270c7
+MD5sum: 401aefeefb472d114dab0e167c6a0464
+Description: nginx web/proxy server (extended version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the standard modules, plus
+ extra features and modules such as the Perl module, which allows the
+ addition of Perl in configuration files.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, FLV, GeoIP,
+ Gunzip, Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log,
+ MP4, Embedded Perl, Random Index, Real IP, Slice, Secure Link, SSI, SSL,
+ SSL Preread, Stub Status, Substitution, Thread Pool, Upstream, User ID, XSLT.
+ .
+ OPTIONAL MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ OPTIONAL STREAM MODULES: Stream, GeoIP, GeoIP2
+ .
+ THIRD PARTY MODULES: Auth PAM, Cache Purge, DAV Ext, Echo, Fancy Index,
+ Headers More, Embedded Lua, HTTP Substitutions, Nchan, Upload Progress,
+ Upstream Fair Queue.
+
+Package: nginx-full
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 38
+Depends: libnginx-mod-http-auth-pam, libnginx-mod-http-dav-ext, libnginx-mod-http-echo, libnginx-mod-http-geoip2, libnginx-mod-http-subs-filter, libnginx-mod-http-upstream-fair, libnginx-mod-stream-geoip2, nginx-core (>= 1.19.10-1sb+111k+groovy1), nginx-core (<< 1.19.10-1sb+111k+groovy1.1~)
+Suggests: nginx-doc (= 1.19.10-1sb+111k+groovy1)
+Breaks: nginx (<< 1.4.5-1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-full_1.19.10-1sb+111k+groovy1_all.deb
+Size: 26616
+SHA256: bb12af4426b358ffe2adfd1b68c6ba9d903ade3fa1ff5ebf7915914f73aa8f17
+SHA1: 4e03cd33e1a545f90fafc6b86514bb981433183c
+MD5sum: 6e21a4702cc46a3b3297cc60a0fcd89c
+Description: nginx web/proxy server (standard version with 3rd parties)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This metapackage provides a version of nginx with the complete set of
+ standard modules included (but omitting some of those included in
+ nginx-extras).
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, GeoIP, Gunzip,
+ Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log, Real IP,
+ Slice, SSI, SSL, Stream, SSL Preread, Stub Status, Substitution, Thread  Pool,
+ Upstream, User ID, XSLT.
+ .
+ OPTIONAL MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ OPTIONAL STREAM MODULES: Stream Core, GeoIP, GeoIP2
+ .
+ THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, HTTP Substitutions, Upstream
+ Fair Queue.
+
+Package: nginx-light
+Source: nginx
+Version: 1.19.10-1sb+111k+groovy1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 4348
+Depends: libnginx-mod-http-echo (= 1.19.10-1sb+111k+groovy1), nginx-common (= 1.19.10-1sb+111k+groovy1), iproute2, libc6 (>= 2.32), libcrypt1 (>= 1:4.1.0), libpcre3, zlib1g (>= 1:1.1.4)
+Suggests: nginx-doc (= 1.19.10-1sb+111k+groovy1)
+Conflicts: nginx-core, nginx-extras
+Breaks: nginx (<< 1.4.5-1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-light_1.19.10-1sb+111k+groovy1_amd64.deb
+Size: 1613908
+SHA256: 743d26c4bfbc97c0d111446d09b1676b4a4011717fb38dd7d5e26da902389be4
+SHA1: e03956f4ee950c6e95c1a247815e482bdda0b211
+MD5sum: e95d7b708f3287652278c8cb449e2af3
+Description: nginx web/proxy server (basic version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a very light version of nginx with only the
+ minimal set of features and modules.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Empty GIF,
+ FastCGI, Map, Proxy, Rewrite, SCGI, uWSGI.
+ .
+ OPTIONAL HTTP MODULES: Auth Request, Charset, Gzip, Gzip Precompression,
+ Headers, HTTP/2, Index, Log, Real IP, Slice, SSI, SSL, Stub Status, Thread
+ Pool, WebDAV, Upstream.
+ .
+ THIRD PARTY MODULES: Echo.
+
