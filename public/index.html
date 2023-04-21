@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Nginx SB Repository</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="build.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>n.wtf Repository</title>
+  <link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha256-YvdLHPgkqJ8DVUxjjnGVlMMJtNimJ6dYkowFFvp4kKs=" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div id="app"></div>
+
+  <script src="https://cdnjs.loli.net/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha256-9SEPo+fwJFpMUet/KACSwO+Z/dKMReF9q4zFhU/fT9M=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.loli.net/ajax/libs/vue/3.2.26/vue.global.prod.min.js" integrity="sha256-phl0rb7f7LteJBkOb0thypvowlYa+c/4ptlJ75tJXmY=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.loli.net/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha256-rtaseLgkmpx8/wAw87kh7p93HLFoQWTz5nnhAjpNXGk=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="src/vue3-sfc-loader@0.8.4.min.js" integrity="sha256-TNhI5BekbYP0UlN0aewBQOutajqxxtcv/L/4jpEkCLw="></script>
+  <script src="src/vue-axios@3.4.0.common.min.js" integrity="sha256-2gku76lSvtBlZaWxZBlwHaVrOB4gyoCfr5uv/xinUK4="></script>
+  <script defer data-domain="n.wtf" src="https://stat.xtom.com/js/plausible.js"></script>
+  <script>
+    const options = {
+      moduleCache: { vue: Vue },
+      getFile: (url) => { return fetch(url, {method: 'GET'}).then(res => res.text()) },
+      addStyle: (textContent) => {
+        const style = Object.assign(document.createElement('style'), { textContent });
+        const ref = document.head.getElementsByTagName('style')[0] || null;
+        document.head.insertBefore(style, ref);
+      },
+    }
+
+    const { loadModule } = window["vue3-sfc-loader"]
+
+    const app = Vue.createApp(Vue.defineAsyncComponent(() => loadModule("src/App.vue", options)))
+    app.use(VueAxios, axios)
+
+    app.mount('#app')
+  </script>
+</body>
 </html>
