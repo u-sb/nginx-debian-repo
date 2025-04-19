@@ -1,0 +1,799 @@
+Package: libnginx-mod-http-auth-pam
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 93
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17), libpam0g (>= 0.99.7.1)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-auth-pam_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 9272
+SHA256: 3c156abacf03f213fc86fca17641aa2f31233e9e4e5a19dff0ca4932fee156f3
+SHA1: 68a19bd36b76ecff176b5f44e3070aaf27340ea7
+MD5sum: 89e830065691963018567e2356f6aa91
+Description: PAM authentication module for Nginx
+ The nginx_http_auth_pam module enables authentication using PAM.
+ .
+ The module uses PAM as a backend for simple http authentication. It
+ also allows setting the pam service name to allow more fine grained control.
+
+Package: libnginx-mod-http-cache-purge
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 93
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-cache-purge_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 11636
+SHA256: 4ef43fbdbd14dc7079af43fa647bc7d6d40d78139659f584b621d50e0db519f8
+SHA1: eedcbdfe8d46fc7e3e6dad3881f96fd2e3b6e1e4
+MD5sum: fa726bfba1bf7bafd07a75020e9a2d41
+Description: Purge content from Nginx caches
+ Cache Purge module adds purging capabilities to Nginx. It allows purging
+ content from caches used by all of Nginx proxy modules, like FastCGI, Proxy,
+ SCGI and uWSGI.
+
+Package: libnginx-mod-http-dav-ext
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 94
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.33), libxml2 (>= 2.7.4)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-dav-ext_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 16512
+SHA256: 8e1604e4354b8720ca3ece06d994e1e75dee5524119bfb15b81124d7897520e7
+SHA1: 14e3844afff2a54972a0b67028800cb5c6eb7f4d
+MD5sum: f8f65aeded9c0f00e13873aadb3ce313
+Description: WebDAV missing commands support for Nginx
+ WebDAV Ext module complements the Nginx WebDAV module to provide a full
+ WebDAV support.
+ .
+ WebDAV Ext provides the missing PROPFIND & OPTIONS methods.
+
+Package: libnginx-mod-http-echo
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 95
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-echo_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 20468
+SHA256: f456b8dd50b9039eda019743deffe5697859585d33566122f3ddc555f62a8204
+SHA1: a9259e4c6641c33bb3ebc47b0f8c448d7f4f5ac9
+MD5sum: 92dcbaa1ef62207473daefdbca87f168
+Description: Bring echo and more shell style goodies to Nginx
+ Echo module wraps lots of Nginx internal APIs for streaming input and output,
+ parallel/sequential subrequests, timers and sleeping, as well as various meta
+ data accessing.
+ .
+ Basically it provides various utilities that help testing and debugging of
+ other modules by trivially emulating different kinds of faked subrequest
+ locations.
+ .
+ People will also find it useful in real-world applications that need to:
+ .
+ 1. Serve static contents directly from memory.
+ 2. Wrap the upstream response with custom header and footer (kinda like the
+    addition module but with contents read directly from the config file and
+    Nginx variables).
+ 3. Merge contents of various "Nginx locations" (i.e., subrequests) together in
+    a single main request (using echo_location and its friends).
+
+Package: libnginx-mod-http-fancyindex
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 94
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.33)
+Suggests: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-fancyindex_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 13916
+SHA256: 4ac247c6947610a46e7d4840f7ec0068886d6701a3e3089272eab96a6f9cd887
+SHA1: 268267b719643151a7ada0d203d5f466509b8933
+MD5sum: a3b6303d05c5dc03765f5d73530cefa1
+Description: Fancy indexes module for the Nginx
+ The Fancy Index module makes possible the generation of file listings, like
+ the built-in autoindex module does, but adding a touch of style by introducing
+ ways to customize the result.
+
+Package: libnginx-mod-http-geoip
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 94
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17), libgeoip1t64 (>= 1.6.12)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-geoip_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 10416
+SHA256: 3d2c339c84943dfadae1f42677230bcbed684734a019ca19fb64ef720aa00d7b
+SHA1: ed2ad8b06e86594d0002f5f1c8041412a2a44e64
+MD5sum: 627881e5fa746c1816faaa976f63ccbf
+Description: GeoIP HTTP module for Nginx
+ The ngx_http_geoip module creates variables with values depending on the
+ client IP address, using the precompiled MaxMind databases.
+ .
+ Those variables include country, region, city, latitude, longitude, postal
+ code, etc.
+
+Package: libnginx-mod-http-geoip2
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 93
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.33), libmaxminddb0 (>= 1.0.2)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-geoip2_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 10892
+SHA256: c615111123ee0b2b67cb7d7c0403be469990f1baa9ef7f8f3f89c08b62dd1a44
+SHA1: 8056148559cb22d437d22ae981d1e018cfba3ed9
+MD5sum: d82902490a5bf094dd7238c40a1ed79b
+Description: GeoIP2 HTTP module for Nginx
+ The ngx_http_geoip2 module creates variables with values depending on the
+ client IP address, using the precompiled MaxMind GeoIP2 databases.
+ .
+ Those variables include country, region, city, latitude, longitude, postal
+ code, etc.
+
+Package: libnginx-mod-http-headers-more-filter
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 94
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-headers-more-filter_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 14232
+SHA256: eae2f53e09256c73c7ed39d8ab260d55578253fa0b700332800bb41ae8c8c592
+SHA1: a4df5b03e7746073908daf0ebc1412cc20a2de81
+MD5sum: 6510c211e069a04310ec0bf295d713d8
+Description: Set and clear input and output headers for Nginx
+ The Headers More module allows you to add, set, or clear any output or input
+ header that you specify.
+ .
+ This is an enhanced version of the standard headers module because it provides
+ more utilities like resetting or clearing "builtin headers" like Content-Type,
+ Content-Length, and Server.
+
+Package: libnginx-mod-http-image-filter
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 93
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17), libgd3 (>= 2.1.0~alpha~)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-image-filter_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 13704
+SHA256: 3634ecffcc367125bada425e1c4a56ee869c253acabf93434ba6944108632d22
+SHA1: ef1ecac022084c5b27f3ea5ac0338a61586d81d9
+MD5sum: 388cee32088c6c1ef204b484b219c959
+Description: HTTP image filter module for Nginx
+ The ngx_http_image_filter module is a filter that transforms images in JPEG,
+ GIF, and PNG formats.
+ .
+ The module supports filters such as rotate, resize, crop, quality, sharpening,
+ interlacing and more.
+
+Package: libnginx-mod-http-ipdb
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 94
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17), libjson-c5 (>= 0.15)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-ipdb_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 12012
+SHA256: 486766ff36e2396b328d6f8594a2782fb462bc91a06e564cf96a586892f2cd0f
+SHA1: aeaa8ec2c50bacfdb62fa3126e50be31483cd29f
+MD5sum: 643d80510e784518d513a9ec4e56bd03
+Description: IPDB HTTP module for Nginx
+
+Package: libnginx-mod-http-lua
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 482
+Depends: libnginx-mod-http-ndk (= 2:1.27.5-1nwtf+350+noble1), nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.33), libluajit-5.1-2 (>= 2.0.4+dfsg) | libluajit2-5.1-2 (>= 2.1~)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-lua_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 148044
+SHA256: 0e3943edde306dafaabfd5a9d9422ee0d57241746d2251847d62b733f9838cba
+SHA1: a57877618f60674246932fd8146ca494c84fd98a
+MD5sum: 2543d6b47a765de5cbb51804231cfeb7
+Description: Lua module for Nginx
+ Embed Lua runtime into nginx.
+ .
+ This module embeds Lua, via the standard Lua 5.1 interpreter or LuaJIT
+ 2.0/2.1, into Nginx and by leveraging Nginx's subrequests, allows the
+ integration of the powerful Lua threads (Lua coroutines) into the Nginx event
+ model.
+
+Package: libnginx-mod-http-ndk
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 92
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-ndk_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 9788
+SHA256: 41b800d9095c79d1e8de599f419039bc6927807255bd0dba4bb80a90d2323bbd
+SHA1: aa9174d57c8175d6cb4b81aa3ac5b5d6c036a7a1
+MD5sum: c07b04b9188464b927665f72def7cf32
+Description: Nginx Development Kit module
+ The NDK is an Nginx module that is designed to extend the core functionality of
+ the excellent Nginx webserver in a way that can be used as a basis of other
+ Nginx modules.
+ .
+ It has functions and macros to deal with generic tasks that don't currently
+ have generic code as part of the core distribution. The NDK itself adds few
+ features that are seen from a user's point of view - it's just designed to help
+ reduce the code that Nginx module developers need to write.
+
+Package: libnginx-mod-http-perl
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 168
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), perl (>= 5.38.2-3.2ubuntu0.1), perlapi-5.38.2, libc6 (>= 2.34), libperl5.38t64 (>= 5.38.2)
+Recommends: nginx
+Replaces: nginx-extras (<< 1.9.14-1)
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-perl_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 21544
+SHA256: 9dea0b10f41c2320b67e5b06041ea938952552bbbac2e02b8620fc24e80187f2
+SHA1: eba8e09d1eab97886585c6fa52ca18fb8a2c1e75
+MD5sum: 07e235aaca3d6dcbd66b8936e6d4bdbe
+Description: Perl module for Nginx
+ Embed Perl runtime into nginx.
+ .
+ The ngx_http_perl module is used to implement location and variable handlers
+ in Perl and insert Perl calls into SSI.
+ .
+ Note that this module is marked experimental.
+
+Package: libnginx-mod-http-subs-filter
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 93
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-subs-filter_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 12000
+SHA256: 272d9b201d581bb15224e15dc306f2e3b6fdfff0776ec6cfe2ec7ef142afa3b5
+SHA1: e00d0e519e2981a1a11678d31ed13bdb26920d6b
+MD5sum: 1a9502b9a50a49fb3a8fc373495ef320
+Description: Substitution filter module for Nginx
+ Subsitution Nginx module can do both regular expression and fixed string
+ substitutions on response bodies. The module is quite different from Nginx's
+ native Substitution module. It scans the output chains buffer and
+ matches string line by line, just like Apache's mod_substitute.
+
+Package: libnginx-mod-http-uploadprogress
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 94
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-uploadprogress_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 15420
+SHA256: dd8cda8659e633927b182623d094a010c587ba059700e4d75747e5a54eea1ec0
+SHA1: cd852445e5947b7ff34b6fb33d04e6dfd25bdc02
+MD5sum: 5cb6005360d1ddd87a780d0f0a69c5e7
+Description: Upload progress system for Nginx
+ Upload progress module is an implementation of an upload progress system, that
+ monitors RFC1867 POST uploads as they are transmitted to upstream servers.
+ .
+ It works by tracking the uploads proxied by Nginx to upstream servers without
+ analysing the uploaded content and offers a web API to report upload progress
+ in Javscript, Json or any other format.
+
+Package: libnginx-mod-http-upstream-fair
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 93
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-upstream-fair_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 12628
+SHA256: fdd88fbe2f61cd5504e86a92032031cd200dd5b0716da9cee2fa300dc3ce52fc
+SHA1: 03605d6d6c7e16ef55435ca9900bf3d0883248f5
+MD5sum: 6a67510e2907efeafe595099945864ad
+Description: Nginx Upstream Fair Proxy Load Balancer
+ The Nginx fair proxy balancer enhances the standard round-robin load balancer
+ provided with Nginx so that it tracks busy backend servers and adjusts
+ balancing accordingly.
+
+Package: libnginx-mod-http-xslt-filter
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 93
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-http-xslt-filter_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 12560
+SHA256: 368c1fdc6ac56df855a44b849641d203feffa4176afabc0b4da7826559d9eaf9
+SHA1: 785ae837af92c8a5200207f05583098d5f2d2f46
+MD5sum: 736d40101d06435a80098887fd8e2a74
+Description: XSLT Transformation module for Nginx
+ The ngx_http_xslt_filter module is a filter that transforms XML responses
+ using one or more XSLT stylesheets.
+ .
+ The transformation can be adjusted by setting the relevant configuration
+ parameters.
+
+Package: libnginx-mod-mail
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 164
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-mail_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 41256
+SHA256: 2217d6a9f12ce878adce41f983c3de1b9ead43a588ed31e10b51bd94aee1315f
+SHA1: 9234799f1cce921c57ea54bd85de180c4bb1763a
+MD5sum: 285e127c24cbbaf7edcee08e1d6e5f05
+Description: Mail module for Nginx
+ The nginx_mail module adds mail proxy support to nginx.
+ .
+ The module supports proxying all the standard mail protocols such as IMAP,
+ POP3 & SMTP.
+
+Package: libnginx-mod-nchan
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 677
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.38)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-nchan_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 194700
+SHA256: abc37973d0c45757b86f96690f754d19f744d0401a3086f34763ded5369b41cf
+SHA1: 7e4597e19fa6a3ca50a803a677b6c9063ae4c28c
+MD5sum: 52879c963925f98083dfca0e1adff39a
+Description: Fast, flexible pub/sub server for Nginx
+ Nchan is a scalable, flexible pub/sub server for the modern web, It can be
+ configured as a standalone server, or as a shim between your application and
+ tens, thousands, or millions of live subscribers. It can buffer messages in
+ memory, on-disk, or via Redis. All connections are handled asynchronously and
+ distributed among any number of worker processes. It can also scale to many
+ nginx server instances with Redis.
+ .
+ Full documentation available at https://nchan.slact.net
+
+Package: libnginx-mod-rtmp
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 377
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.38)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-rtmp_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 115040
+SHA256: bf3113644486cbc52b6ca89ea4feaa4841bd2a87cf3b05af5b3ff3339740f6d9
+SHA1: a00043897ce3b17c9cbf0f850539fb6b2568c59b
+MD5sum: 537c001906f927ae95aaacf23fda1df1
+Description: RTMP support for Nginx
+ The nginx RTMP module is a fully-featured streaming solution implemented in
+ nginx.
+ .
+ It provides the following features:
+  - Live streaming with RTMP, HLS and MPEG-DASH;
+  - RTMP Video on Demand from local or HTTP sources;
+  - Stream relay support via a push or pull model;
+  - Integrated stream recording;
+  - and more.
+
+Package: libnginx-mod-stream
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 236
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.33)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-stream_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 73848
+SHA256: ebb2856e2f53ee64fdb25c7a529ecc15a6385157939bc2578aafd392d69544f5
+SHA1: f2b2c26eae02d81d3ba16e8fdd3724e1159c5436
+MD5sum: d824605e825e93a1d2f3b0d448d9b646
+Description: Stream module for Nginx
+ The nginx_stream module adds stream proxy support to nginx.
+ .
+ Stream module supports loadbalancing & proxying to TCP servers. The module
+ also supports ACLs/connection limiting and configuring multiple operational
+ parameters.
+
+Package: libnginx-mod-stream-geoip
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 94
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.17), libgeoip1t64 (>= 1.6.12), libnginx-mod-stream (= 2:1.27.5-1nwtf+350+noble1)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-stream-geoip_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 9660
+SHA256: 11bca79810d00d6d3456d5e369cfa952d7a2ff7755a8427a8bf53e60c39113c6
+SHA1: ec13d3693065bc6dd02cd6a41773d4d09227270f
+MD5sum: 4406fd3743a235931737bd4387173700
+Description: GeoIP Stream module for Nginx
+ The ngx_stream_geoip module creates variables with values depending on the
+ client IP address, using the precompiled MaxMind databases.
+ .
+ Those variables include country, region, city, latitude, longitude, postal
+ code, etc.
+
+Package: libnginx-mod-stream-geoip2
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 93
+Depends: nginx-common (= 2:1.27.5-1nwtf+350+noble1), libc6 (>= 2.33), libmaxminddb0 (>= 1.0.2), libnginx-mod-stream (= 2:1.27.5-1nwtf+350+noble1)
+Recommends: nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/libnginx-mod-stream-geoip2_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 10508
+SHA256: 371e0dbe9e74b26481c675f000b2526852a4e2fde9f11d2b7144806c9bd43c21
+SHA1: a2279867835d3621bb622a569bced6e2eae0b368
+MD5sum: 19440db7fe29c473e64aa4f2326a85d6
+Description: GeoIP2 Stream module for Nginx
+ The ngx_stream_geoip2 module creates variables with values depending on the
+ client IP address, using the precompiled MaxMind GeoIP2 databases.
+ .
+ Those variables include country, region, city, latitude, longitude, postal
+ code, etc.
+
+Package: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 17
+Depends: nginx-core (<< 2:1.27.5-1nwtf+350+noble1.1~) | nginx-full (<< 2:1.27.5-1nwtf+350+noble1.1~) | nginx-light (<< 2:1.27.5-1nwtf+350+noble1.1~) | nginx-extras (<< 2:1.27.5-1nwtf+350+noble1.1~), nginx-core (>= 2:1.27.5-1nwtf+350+noble1) | nginx-full (>= 2:1.27.5-1nwtf+350+noble1) | nginx-light (>= 2:1.27.5-1nwtf+350+noble1) | nginx-extras (>= 2:1.27.5-1nwtf+350+noble1)
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx_1.27.5-1nwtf+350+noble1_all.deb
+Size: 4960
+SHA256: a48477f8cf7f74701c52b4320865868009dd124797c2fcd044bed1cbb1dca08a
+SHA1: 9282f89ce4ab6eccff75e8239dcbcc8f13e5d550
+MD5sum: 1bb5e7d8ea432f79aa55aca230728357
+Description: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-core (by default),
+ nginx-full, nginx-light or nginx-extras.
+
+Package: nginx-common
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 280
+Depends: lsb-base (>= 3.0-6), debconf (>= 0.5) | debconf-2.0
+Suggests: fcgiwrap, nginx-doc, ssl-cert
+Multi-Arch: foreign
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-common_1.27.5-1nwtf+350+noble1_all.deb
+Size: 42744
+SHA256: b36f4b77c7e402885905817c4b41e49b0d04ab7affeb6a2c431afcf59a304713
+SHA1: 6cd9148b36124e2af998cdc9d37534767a56b635
+MD5sum: 62f054e21131d36b5c0aafb429866a18
+Description: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+
+Package: nginx-core
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 7825
+Depends: libnginx-mod-http-geoip (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-image-filter (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-xslt-filter (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-mail (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-stream (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-stream-geoip (= 2:1.27.5-1nwtf+350+noble1), nginx-common (= 2:1.27.5-1nwtf+350+noble1), iproute2, libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpcre3, zlib1g (>= 1:1.1.4)
+Suggests: nginx-doc (= 2:1.27.5-1nwtf+350+noble1)
+Conflicts: nginx-extras, nginx-light
+Breaks: nginx (<< 1.4.5-1), nginx-full (<< 1.18.0-1)
+Replaces: nginx-full (<< 1.18.0-1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-core_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 2719228
+SHA256: b3b9348d94aeda0d43b458b5c6ef3928de7fc3aba06503a933e1da308197c3b1
+SHA1: ad0cd3ebb175e26b261ebb20cb86556c8ab34ffe
+MD5sum: 90e2fa3c9836cd61d9f3a702c5598b2a
+Description: nginx web/proxy server (standard version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx identical to that of nginx-full,
+ but without any third-party modules, and only modules in the original
+ nginx code base.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, GeoIP, Gunzip,
+ Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log, Real IP,
+ Slice, SSI, SSL, SSL Preread, Stub Status, Substitution, Thread  Pool,
+ Upstream, User ID, XSLT.
+ .
+ OPTIONAL MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ OPTIONAL STREAM MODULES: Stream Core, GeoIP
+
+Package: nginx-dev
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 812
+Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (<< 2:1.27.5-1nwtf+350+noble1.1~) | nginx-light (<< 2:1.27.5-1nwtf+350+noble1.1~) | nginx-extras (<< 2:1.27.5-1nwtf+350+noble1.1~), nginx-core (>= 2:1.27.5-1nwtf+350+noble1) | nginx-light (>= 2:1.27.5-1nwtf+350+noble1) | nginx-extras (>= 2:1.27.5-1nwtf+350+noble1)
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-dev_1.27.5-1nwtf+350+noble1_all.deb
+Size: 112696
+SHA256: 862bc3158a83b6e9dbd9378e7ed475c32572c31e0e6be63b1fb85ca215a42858
+SHA1: 53254d98df7877ff13e6bdbc3b43c4600e9bd31f
+MD5sum: 5779ac56c0bb9a7608815b26059cfe66
+Description: nginx web/proxy server - development headers
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides development headers and necessary config scripts
+ for the nginx web/proxy server, useful to develop and link third party
+ additions to the Debian nginx web/proxy server packages.
+
+Package: nginx-doc
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 42
+Multi-Arch: foreign
+Homepage: https://nginx.net
+Priority: optional
+Section: doc
+Filename: pool/main/n/nginx/nginx-doc_1.27.5-1nwtf+350+noble1_all.deb
+Size: 16424
+SHA256: 898cea7cedaf065aadd5a4b4fe833baca0bab372443c7eab36019c336aa481c6
+SHA1: 6c9b4a8ad0c03066e2dd19c3cafa9a05a7031564
+MD5sum: 127190021ebfde29cd5f724f14f5437f
+Description: small, powerful, scalable web/proxy server - documentation
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides extra documentation to help unleash the power of Nginx.
+
+Package: nginx-extras
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 7827
+Depends: libnginx-mod-http-auth-pam (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-cache-purge (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-dav-ext (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-echo (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-fancyindex (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-geoip (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-geoip2 (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-headers-more-filter (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-image-filter (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-lua (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-perl (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-subs-filter (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-uploadprogress (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-upstream-fair (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-xslt-filter (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-mail (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-nchan (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-stream (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-stream-geoip (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-stream-geoip2 (= 2:1.27.5-1nwtf+350+noble1), libnginx-mod-http-ipdb (= 2:1.27.5-1nwtf+350+noble1), nginx-common (= 2:1.27.5-1nwtf+350+noble1), iproute2, libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpcre3, zlib1g (>= 1:1.1.4)
+Suggests: nginx-doc (= 2:1.27.5-1nwtf+350+noble1)
+Conflicts: nginx-core, nginx-light
+Breaks: nginx (<< 1.4.5-1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-extras_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 2733196
+SHA256: c0922c283d3d39bb77741556edee0882c71567a1a55d483ffcd8d706ee06b0f5
+SHA1: 49271ad30154ccb49abef6e50fe5a00be1d73e01
+MD5sum: a30704c6cd62d4cc45038cb975211b49
+Description: nginx web/proxy server (extended version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx with the standard modules, plus
+ extra features and modules such as the Perl module, which allows the
+ addition of Perl in configuration files.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, FLV, GeoIP,
+ Gunzip, Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log,
+ MP4, Embedded Perl, Random Index, Real IP, Slice, Secure Link, SSI, SSL,
+ SSL Preread, Stub Status, Substitution, Thread Pool, Upstream, User ID, XSLT.
+ .
+ OPTIONAL MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ OPTIONAL STREAM MODULES: Stream, GeoIP, GeoIP2
+ .
+ THIRD PARTY MODULES: Auth PAM, Cache Purge, DAV Ext, Echo, Fancy Index,
+ Headers More, Embedded Lua, HTTP Substitutions, Nchan, Upload Progress,
+ Upstream Fair Queue.
+
+Package: nginx-full
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 17
+Depends: libnginx-mod-http-auth-pam, libnginx-mod-http-dav-ext, libnginx-mod-http-echo, libnginx-mod-http-geoip2, libnginx-mod-http-subs-filter, libnginx-mod-http-upstream-fair, libnginx-mod-stream-geoip2, nginx-core (>= 2:1.27.5-1nwtf+350+noble1), nginx-core (<< 2:1.27.5-1nwtf+350+noble1.1~)
+Suggests: nginx-doc (= 2:1.27.5-1nwtf+350+noble1)
+Breaks: nginx (<< 1.4.5-1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-full_1.27.5-1nwtf+350+noble1_all.deb
+Size: 5468
+SHA256: 73fb990bd33c0c6e8739c99eba81bd1a5cd399e67a62d126deec4bdb28f1472b
+SHA1: c901be4738d50adcff940ea2d20c6c16fba78a80
+MD5sum: e2a8e9beb1e0c4179711a144da86bbb2
+Description: nginx web/proxy server (standard version with 3rd parties)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This metapackage provides a version of nginx with the complete set of
+ standard modules included (but omitting some of those included in
+ nginx-extras).
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, GeoIP, Gunzip,
+ Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log, Real IP,
+ Slice, SSI, SSL, Stream, SSL Preread, Stub Status, Substitution, Thread  Pool,
+ Upstream, User ID, XSLT.
+ .
+ OPTIONAL MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ OPTIONAL STREAM MODULES: Stream Core, GeoIP, GeoIP2
+ .
+ THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, HTTP Substitutions, Upstream
+ Fair Queue.
+
+Package: nginx-light
+Source: nginx
+Version: 2:1.27.5-1nwtf+350+noble1
+Architecture: arm64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 7752
+Depends: libnginx-mod-http-echo (= 2:1.27.5-1nwtf+350+noble1), nginx-common (= 2:1.27.5-1nwtf+350+noble1), iproute2, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpcre3, zlib1g (>= 1:1.1.4)
+Suggests: nginx-doc (= 2:1.27.5-1nwtf+350+noble1)
+Conflicts: nginx-core, nginx-extras
+Breaks: nginx (<< 1.4.5-1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-light_1.27.5-1nwtf+350+noble1_arm64.deb
+Size: 2694812
+SHA256: 640518e815d130dd220eba5dff7b0d4e88e2d16ed3370f2b47f07fd37c5a5d21
+SHA1: a0197528dbad7d47c1d399a63ee74754fa08ceb7
+MD5sum: e8b45a96ebdd26ba5bd5a976d2e62ab7
+Description: nginx web/proxy server (basic version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a very light version of nginx with only the
+ minimal set of features and modules.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Empty GIF,
+ FastCGI, Map, Proxy, Rewrite, SCGI, uWSGI.
+ .
+ OPTIONAL HTTP MODULES: Auth Request, Charset, Gzip, Gzip Precompression,
+ Headers, HTTP/2, Index, Log, Real IP, Slice, SSI, SSL, Stub Status, Thread
+ Pool, WebDAV, Upstream.
+ .
+ THIRD PARTY MODULES: Echo.
+
