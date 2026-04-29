@@ -1,0 +1,161 @@
+Package: lua-resty-core
+Version: 0.1.99.31-1nwtf
+Architecture: all
+Maintainer: Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>
+Installed-Size: 251
+Depends: libluajit-5.1-2, libnginx-mod-http-lua (<< 2:2.0), libnginx-mod-http-lua (>= 2:1.27), lua-resty-lrucache (>= 0.13-11)
+Provides: lua5.1-resty-core
+Homepage: https://github.com/openresty/lua-resty-core
+Priority: optional
+Section: net
+Filename: pool/main/l/lua-resty-core/lua-resty-core_0.1.99.31-1nwtf_all.deb
+Size: 34440
+SHA256: 1b44f00ae3f26a81438323905a385746358b0c64ab1605213940d84b6248d417
+SHA1: 44b384e8547e18e047efeb4ad5d09020b574d148
+MD5sum: 289b5edf2b9b7b22cf30d364c3cfeb0a
+Description: New FFI-based Lua API for NGINX Lua module
+ This pure Lua library reimplements part of the ngx_lua module's Nginx API
+ for Lua with LuaJIT FFI and installs the new FFI-based Lua API
+ into the ngx.* and ndk.* namespaces used by the ngx_lua module. In addition,
+ this Lua library implements any significant new Lua APIs of the ngx_lua module
+ as proper Lua modules, like ngx.semaphore and ngx.balancer. The FFI-based
+ Lua API can work with LuaJIT's JIT compiler. ngx_lua's default API is based on
+ the standard Lua C API, which will never be JIT compiled and the user Lua code
+ is always interpreted (slowly).
+
+Package: nginx
+Version: 2:1.29.8-1nwtf+362+resolute+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 17
+Depends: nginx-core (<< 2:1.29.8-1nwtf+362+resolute+v3.1.1~) | nginx-full (<< 2:1.29.8-1nwtf+362+resolute+v3.1.1~) | nginx-light (<< 2:1.29.8-1nwtf+362+resolute+v3.1.1~) | nginx-extras (<< 2:1.29.8-1nwtf+362+resolute+v3.1.1~), nginx-core (>= 2:1.29.8-1nwtf+362+resolute+v3.1) | nginx-full (>= 2:1.29.8-1nwtf+362+resolute+v3.1) | nginx-light (>= 2:1.29.8-1nwtf+362+resolute+v3.1) | nginx-extras (>= 2:1.29.8-1nwtf+362+resolute+v3.1)
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx_1.29.8-1nwtf+362+resolute+v3.1_all.deb
+Size: 4808
+SHA256: c5826f28b22639701050beb171f1d13aa27fd620a3e464d6a6f6b5239a6375c4
+SHA1: bf862d766139dd352dcf6e92e64c46c29a6dc47e
+MD5sum: 0405e965649c99a21e24b868a438c8c5
+Description: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-core (by default),
+ nginx-full, nginx-light or nginx-extras.
+
+Package: nginx-common
+Source: nginx
+Version: 2:1.29.8-1nwtf+362+resolute+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 280
+Depends: lsb-base (>= 3.0-6), debconf (>= 0.5) | debconf-2.0
+Suggests: fcgiwrap, nginx-doc, ssl-cert
+Multi-Arch: foreign
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-common_1.29.8-1nwtf+362+resolute+v3.1_all.deb
+Size: 42564
+SHA256: 05cbe373576e1133301ceb0337b32a1681415414f1b5e6f1e401dc04cd5f93af
+SHA1: dc33d714bfb730f86f6d4491639ce17ad7816886
+MD5sum: 4da0acd87a8de29a4044e6b8cc3f1aef
+Description: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+
+Package: nginx-dev
+Source: nginx
+Version: 2:1.29.8-1nwtf+362+resolute+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 824
+Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (<< 2:1.29.8-1nwtf+362+resolute+v3.1.1~) | nginx-light (<< 2:1.29.8-1nwtf+362+resolute+v3.1.1~) | nginx-extras (<< 2:1.29.8-1nwtf+362+resolute+v3.1.1~), nginx-core (>= 2:1.29.8-1nwtf+362+resolute+v3.1) | nginx-light (>= 2:1.29.8-1nwtf+362+resolute+v3.1) | nginx-extras (>= 2:1.29.8-1nwtf+362+resolute+v3.1)
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-dev_1.29.8-1nwtf+362+resolute+v3.1_all.deb
+Size: 113912
+SHA256: ef6bbb4a38925b2b5bbaa68cece64a1d594978e0c7761b5db7d31367d2bd5cc0
+SHA1: 4886f4f152be5b8fb94e85c62e306a907ca35cf1
+MD5sum: c65ea0d67c75fbbd83019d0173a8c1e2
+Description: nginx web/proxy server - development headers
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides development headers and necessary config scripts
+ for the nginx web/proxy server, useful to develop and link third party
+ additions to the Debian nginx web/proxy server packages.
+
+Package: nginx-doc
+Source: nginx
+Version: 2:1.29.8-1nwtf+362+resolute+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 42
+Multi-Arch: foreign
+Homepage: https://nginx.net
+Priority: optional
+Section: doc
+Filename: pool/main/n/nginx/nginx-doc_1.29.8-1nwtf+362+resolute+v3.1_all.deb
+Size: 16264
+SHA256: fbff14bad676d75d87df949a647485ee06af8cd6e7b0263862a5fad902174b92
+SHA1: 8462d4cf370e0204009597d2bff856e88343f14f
+MD5sum: 5f86fa18a73efa36e1ab97b1556b0cf1
+Description: small, powerful, scalable web/proxy server - documentation
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides extra documentation to help unleash the power of Nginx.
+
+Package: nginx-full
+Source: nginx
+Version: 2:1.29.8-1nwtf+362+resolute+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 17
+Depends: libnginx-mod-http-auth-pam, libnginx-mod-http-dav-ext, libnginx-mod-http-echo, libnginx-mod-http-geoip2, libnginx-mod-http-subs-filter, libnginx-mod-http-upstream-fair, libnginx-mod-stream-geoip2, nginx-core (>= 2:1.29.8-1nwtf+362+resolute+v3.1), nginx-core (<< 2:1.29.8-1nwtf+362+resolute+v3.1.1~)
+Suggests: nginx-doc (= 2:1.29.8-1nwtf+362+resolute+v3.1)
+Breaks: nginx (<< 1.4.5-1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-full_1.29.8-1nwtf+362+resolute+v3.1_all.deb
+Size: 5308
+SHA256: 064e732675aab44e2047a63d7f5c766ff41e3cb5220025d53cd57ead8f21cb7e
+SHA1: c2105e6798f7dc74ad5a2eb40ebad88697106ab2
+MD5sum: 870dad34fee9be4cc1157a3143c92004
+Description: nginx web/proxy server (standard version with 3rd parties)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This metapackage provides a version of nginx with the complete set of
+ standard modules included (but omitting some of those included in
+ nginx-extras).
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, GeoIP, Gunzip,
+ Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log, Real IP,
+ Slice, SSI, SSL, Stream, SSL Preread, Stub Status, Substitution, Thread  Pool,
+ Upstream, User ID, XSLT.
+ .
+ OPTIONAL MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ OPTIONAL STREAM MODULES: Stream Core, GeoIP, GeoIP2
+ .
+ THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, HTTP Substitutions, Upstream
+ Fair Queue.
+

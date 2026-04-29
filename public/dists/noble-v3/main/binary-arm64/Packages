@@ -1,0 +1,136 @@
+Package: nginx
+Version: 2:1.29.8-1nwtf+362+noble+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 18
+Depends: nginx-core (<< 2:1.29.8-1nwtf+362+noble+v3.1.1~) | nginx-full (<< 2:1.29.8-1nwtf+362+noble+v3.1.1~) | nginx-light (<< 2:1.29.8-1nwtf+362+noble+v3.1.1~) | nginx-extras (<< 2:1.29.8-1nwtf+362+noble+v3.1.1~), nginx-core (>= 2:1.29.8-1nwtf+362+noble+v3.1) | nginx-full (>= 2:1.29.8-1nwtf+362+noble+v3.1) | nginx-light (>= 2:1.29.8-1nwtf+362+noble+v3.1) | nginx-extras (>= 2:1.29.8-1nwtf+362+noble+v3.1)
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx_1.29.8-1nwtf+362+noble+v3.1_all.deb
+Size: 5104
+SHA256: 8e0cd9ca916ab0254c59b214672f6e6fc71e0e8b81b177e693525cec4d80340a
+SHA1: 0413686d319bf42f7a25d5b092f224d3818441c0
+MD5sum: 704fa6abcf7be15151c9b8d8ec94a014
+Description: small, powerful, scalable web/proxy server
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This is a dependency package to install either nginx-core (by default),
+ nginx-full, nginx-light or nginx-extras.
+
+Package: nginx-common
+Source: nginx
+Version: 2:1.29.8-1nwtf+362+noble+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 281
+Depends: lsb-base (>= 3.0-6), debconf (>= 0.5) | debconf-2.0
+Suggests: fcgiwrap, nginx-doc, ssl-cert
+Multi-Arch: foreign
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-common_1.29.8-1nwtf+362+noble+v3.1_all.deb
+Size: 42864
+SHA256: 261b2971d703889d69b409ad923592443fbc1b24f853883af5f35fe76849f563
+SHA1: f11ed354f936bcc7660748d32bc7a251f99f4a20
+MD5sum: e1f58d8a1c6e2efdf47fcb0f4ffcb646
+Description: small, powerful, scalable web/proxy server - common files
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package contains base configuration files used by all versions of
+ nginx.
+
+Package: nginx-dev
+Source: nginx
+Version: 2:1.29.8-1nwtf+362+noble+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 825
+Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (<< 2:1.29.8-1nwtf+362+noble+v3.1.1~) | nginx-light (<< 2:1.29.8-1nwtf+362+noble+v3.1.1~) | nginx-extras (<< 2:1.29.8-1nwtf+362+noble+v3.1.1~), nginx-core (>= 2:1.29.8-1nwtf+362+noble+v3.1) | nginx-light (>= 2:1.29.8-1nwtf+362+noble+v3.1) | nginx-extras (>= 2:1.29.8-1nwtf+362+noble+v3.1)
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-dev_1.29.8-1nwtf+362+noble+v3.1_all.deb
+Size: 114240
+SHA256: d1363d3d17d51897222d5095641a3265759192a02f8a702dde4dc29103ef6113
+SHA1: ac7a73c0ce243544d718a618af56fe1bf1f13738
+MD5sum: 26840ecc45f4df02caceb93997b48ce9
+Description: nginx web/proxy server - development headers
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides development headers and necessary config scripts
+ for the nginx web/proxy server, useful to develop and link third party
+ additions to the Debian nginx web/proxy server packages.
+
+Package: nginx-doc
+Source: nginx
+Version: 2:1.29.8-1nwtf+362+noble+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 43
+Multi-Arch: foreign
+Homepage: https://nginx.net
+Priority: optional
+Section: doc
+Filename: pool/main/n/nginx/nginx-doc_1.29.8-1nwtf+362+noble+v3.1_all.deb
+Size: 16568
+SHA256: 2cb40c8a02fd8fb26922f31ea0f97c52a3a04593d4f43c367b8643a0e956be87
+SHA1: a8a964115e6d26cfb7da0097ff109aae6a922724
+MD5sum: 63d8e1c127386cd1d4608c2100b78a39
+Description: small, powerful, scalable web/proxy server - documentation
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides extra documentation to help unleash the power of Nginx.
+
+Package: nginx-full
+Source: nginx
+Version: 2:1.29.8-1nwtf+362+noble+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 18
+Depends: libnginx-mod-http-auth-pam, libnginx-mod-http-dav-ext, libnginx-mod-http-echo, libnginx-mod-http-geoip2, libnginx-mod-http-subs-filter, libnginx-mod-http-upstream-fair, libnginx-mod-stream-geoip2, nginx-core (>= 2:1.29.8-1nwtf+362+noble+v3.1), nginx-core (<< 2:1.29.8-1nwtf+362+noble+v3.1.1~)
+Suggests: nginx-doc (= 2:1.29.8-1nwtf+362+noble+v3.1)
+Breaks: nginx (<< 1.4.5-1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-full_1.29.8-1nwtf+362+noble+v3.1_all.deb
+Size: 5600
+SHA256: a49e2c0e55c430b565dd0e1596b4e3c1778ef0f5dee4c2935ab596898c410183
+SHA1: c047d356c732d292e502d0a1bac26a5ea7caacd3
+MD5sum: d4e4618793d95265fd729c3e8a21e860
+Description: nginx web/proxy server (standard version with 3rd parties)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This metapackage provides a version of nginx with the complete set of
+ standard modules included (but omitting some of those included in
+ nginx-extras).
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, GeoIP, Gunzip,
+ Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log, Real IP,
+ Slice, SSI, SSL, Stream, SSL Preread, Stub Status, Substitution, Thread  Pool,
+ Upstream, User ID, XSLT.
+ .
+ OPTIONAL MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ OPTIONAL STREAM MODULES: Stream Core, GeoIP, GeoIP2
+ .
+ THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, HTTP Substitutions, Upstream
+ Fair Queue.
+
