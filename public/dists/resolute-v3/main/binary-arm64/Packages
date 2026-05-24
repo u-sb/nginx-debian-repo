@@ -24,19 +24,19 @@ Description: New FFI-based Lua API for NGINX Lua module
  is always interpreted (slowly).
 
 Package: nginx
-Version: 2:1.31.0-1nwtf+362+resolute+v3.1
+Version: 2:1.31.1-1nwtf+362+resolute+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 17
-Depends: nginx-core (<< 2:1.31.0-1nwtf+362+resolute+v3.1.1~) | nginx-full (<< 2:1.31.0-1nwtf+362+resolute+v3.1.1~) | nginx-light (<< 2:1.31.0-1nwtf+362+resolute+v3.1.1~) | nginx-extras (<< 2:1.31.0-1nwtf+362+resolute+v3.1.1~), nginx-core (>= 2:1.31.0-1nwtf+362+resolute+v3.1) | nginx-full (>= 2:1.31.0-1nwtf+362+resolute+v3.1) | nginx-light (>= 2:1.31.0-1nwtf+362+resolute+v3.1) | nginx-extras (>= 2:1.31.0-1nwtf+362+resolute+v3.1)
+Depends: nginx-core (<< 2:1.31.1-1nwtf+362+resolute+v3.1.1~) | nginx-full (<< 2:1.31.1-1nwtf+362+resolute+v3.1.1~) | nginx-light (<< 2:1.31.1-1nwtf+362+resolute+v3.1.1~) | nginx-extras (<< 2:1.31.1-1nwtf+362+resolute+v3.1.1~), nginx-core (>= 2:1.31.1-1nwtf+362+resolute+v3.1) | nginx-full (>= 2:1.31.1-1nwtf+362+resolute+v3.1) | nginx-light (>= 2:1.31.1-1nwtf+362+resolute+v3.1) | nginx-extras (>= 2:1.31.1-1nwtf+362+resolute+v3.1)
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx_1.31.0-1nwtf+362+resolute+v3.1_all.deb
-Size: 4812
-SHA256: ffc0aac0336554f04e7ae5ab94136b8e365efd381807957c9516bd52bb5751f1
-SHA1: 5b7854e3bb318e2e10c3394dd03953e89d635697
-MD5sum: 10efec90a7625c92d3b8355970d906d8
+Filename: pool/main/n/nginx/nginx_1.31.1-1nwtf+362+resolute+v3.1_all.deb
+Size: 4824
+SHA256: 075e9e33fcbdf67d4bb2380707162873f9356066bcd6e709b323676404b6595c
+SHA1: f4dbab8090707cb40299273f2f3441262bdd2ac9
+MD5sum: 7de04c46b28e3077ab351670243dab9a
 Description: small, powerful, scalable web/proxy server
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -47,7 +47,7 @@ Description: small, powerful, scalable web/proxy server
 
 Package: nginx-common
 Source: nginx
-Version: 2:1.31.0-1nwtf+362+resolute+v3.1
+Version: 2:1.31.1-1nwtf+362+resolute+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 280
@@ -57,11 +57,11 @@ Multi-Arch: foreign
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-common_1.31.0-1nwtf+362+resolute+v3.1_all.deb
-Size: 42560
-SHA256: 69ae41eeb88cf8443a56f176131ed5d5d926915fee5605e4f6fb30dabfcac91f
-SHA1: c271d9b3ca85d0026cf5b117c392e7d287b0b2b9
-MD5sum: ad78766b7f4e9ae3bfbf7026ade58d30
+Filename: pool/main/n/nginx/nginx-common_1.31.1-1nwtf+362+resolute+v3.1_all.deb
+Size: 42616
+SHA256: bee301e58b651ffb73ab06e1940deca5288fdee61508af2f4bb75b6f5193b0e9
+SHA1: ec0ff1759a497ae2118be2e01320151b08421dcd
+MD5sum: 3e43cd81a7e942caeb680ebcfc657cb1
 Description: small, powerful, scalable web/proxy server - common files
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -72,19 +72,19 @@ Description: small, powerful, scalable web/proxy server - common files
 
 Package: nginx-dev
 Source: nginx
-Version: 2:1.31.0-1nwtf+362+resolute+v3.1
+Version: 2:1.31.1-1nwtf+362+resolute+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 828
-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (<< 2:1.31.0-1nwtf+362+resolute+v3.1.1~) | nginx-light (<< 2:1.31.0-1nwtf+362+resolute+v3.1.1~) | nginx-extras (<< 2:1.31.0-1nwtf+362+resolute+v3.1.1~), nginx-core (>= 2:1.31.0-1nwtf+362+resolute+v3.1) | nginx-light (>= 2:1.31.0-1nwtf+362+resolute+v3.1) | nginx-extras (>= 2:1.31.0-1nwtf+362+resolute+v3.1)
+Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (<< 2:1.31.1-1nwtf+362+resolute+v3.1.1~) | nginx-light (<< 2:1.31.1-1nwtf+362+resolute+v3.1.1~) | nginx-extras (<< 2:1.31.1-1nwtf+362+resolute+v3.1.1~), nginx-core (>= 2:1.31.1-1nwtf+362+resolute+v3.1) | nginx-light (>= 2:1.31.1-1nwtf+362+resolute+v3.1) | nginx-extras (>= 2:1.31.1-1nwtf+362+resolute+v3.1)
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-dev_1.31.0-1nwtf+362+resolute+v3.1_all.deb
-Size: 114316
-SHA256: 7cec899cebcf2d2eee70c800af9893b6318f34f10c71470e405dde70adfd17e6
-SHA1: 3b39e9b84f22099e0f2030a7df654bce824d71e4
-MD5sum: 5c06b89433d5f4c190dcf5bce34bcfe4
+Filename: pool/main/n/nginx/nginx-dev_1.31.1-1nwtf+362+resolute+v3.1_all.deb
+Size: 114320
+SHA256: 2a5a121aa3a8c914e482428192d35e457f1c093b7f2283db496b1071cbd193a2
+SHA1: a226caca829a7e8a44a7edcd1d8944941dc5c37c
+MD5sum: ebc47a57aad9d9aed65da35ca99e7071
 Description: nginx web/proxy server - development headers
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -96,7 +96,7 @@ Description: nginx web/proxy server - development headers
 
 Package: nginx-doc
 Source: nginx
-Version: 2:1.31.0-1nwtf+362+resolute+v3.1
+Version: 2:1.31.1-1nwtf+362+resolute+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 42
@@ -104,11 +104,11 @@ Multi-Arch: foreign
 Homepage: https://nginx.net
 Priority: optional
 Section: doc
-Filename: pool/main/n/nginx/nginx-doc_1.31.0-1nwtf+362+resolute+v3.1_all.deb
-Size: 16272
-SHA256: 7416590dbd003825b2412d4763720a0a8fb2e73bd39c7486ecafbbc0ec7d522c
-SHA1: 33e2dd957a9d8a30a2b19ebd7984f4ddca8da978
-MD5sum: 8e7ea55a7c68243d3fd96b45cae7f244
+Filename: pool/main/n/nginx/nginx-doc_1.31.1-1nwtf+362+resolute+v3.1_all.deb
+Size: 16276
+SHA256: e0b34cdb2ad58e4235b8b5b827a2b0e9edc4fe2e776fbac3daf020db51d6d8c7
+SHA1: 316eb982119070e382642fc5cc75ab7297de151a
+MD5sum: 29a8240df46b95d4807d62dab17ef837
 Description: small, powerful, scalable web/proxy server - documentation
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -118,22 +118,22 @@ Description: small, powerful, scalable web/proxy server - documentation
 
 Package: nginx-full
 Source: nginx
-Version: 2:1.31.0-1nwtf+362+resolute+v3.1
+Version: 2:1.31.1-1nwtf+362+resolute+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 17
-Depends: libnginx-mod-http-auth-pam, libnginx-mod-http-dav-ext, libnginx-mod-http-echo, libnginx-mod-http-geoip2, libnginx-mod-http-subs-filter, libnginx-mod-http-upstream-fair, libnginx-mod-stream-geoip2, nginx-core (>= 2:1.31.0-1nwtf+362+resolute+v3.1), nginx-core (<< 2:1.31.0-1nwtf+362+resolute+v3.1.1~)
-Suggests: nginx-doc (= 2:1.31.0-1nwtf+362+resolute+v3.1)
+Depends: libnginx-mod-http-auth-pam, libnginx-mod-http-dav-ext, libnginx-mod-http-echo, libnginx-mod-http-geoip2, libnginx-mod-http-subs-filter, libnginx-mod-http-upstream-fair, libnginx-mod-stream-geoip2, nginx-core (>= 2:1.31.1-1nwtf+362+resolute+v3.1), nginx-core (<< 2:1.31.1-1nwtf+362+resolute+v3.1.1~)
+Suggests: nginx-doc (= 2:1.31.1-1nwtf+362+resolute+v3.1)
 Breaks: nginx (<< 1.4.5-1)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-full_1.31.0-1nwtf+362+resolute+v3.1_all.deb
-Size: 5316
-SHA256: 616558563b00094097a43b232568654f38525120a4d0841223a64fb890f7b10d
-SHA1: 3aecfa47974bcb0cae876544f5560cca64ad923a
-MD5sum: 06cfc07b5a134530e5d8bb409749d7be
+Filename: pool/main/n/nginx/nginx-full_1.31.1-1nwtf+362+resolute+v3.1_all.deb
+Size: 5320
+SHA256: 1bd3b41c47ba48295749513efa3eaadf8de447e4d0555095b24ba64315b8a7c1
+SHA1: 16ce3dc4a6dff3f1e8b32a07bec788e2be83a913
+MD5sum: 18f60ddded4124a8e6d5ba18600cdacf
 Description: nginx web/proxy server (standard version with 3rd parties)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
