@@ -24,44 +24,44 @@ Description: New FFI-based Lua API for NGINX Lua module
  is always interpreted (slowly).
 
 Package: nginx
-Version: 2:1.31.3-1nwtf+401+resolute+v3.1
+Version: 2:1.31.3-3nwtf+401+resolute+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 17
-Depends: nginx-core (<< 2:1.31.3-1nwtf+401+resolute+v3.1.1~) | nginx-full (<< 2:1.31.3-1nwtf+401+resolute+v3.1.1~) | nginx-light (<< 2:1.31.3-1nwtf+401+resolute+v3.1.1~) | nginx-extras (<< 2:1.31.3-1nwtf+401+resolute+v3.1.1~), nginx-core (>= 2:1.31.3-1nwtf+401+resolute+v3.1) | nginx-full (>= 2:1.31.3-1nwtf+401+resolute+v3.1) | nginx-light (>= 2:1.31.3-1nwtf+401+resolute+v3.1) | nginx-extras (>= 2:1.31.3-1nwtf+401+resolute+v3.1)
+Installed-Size: 18
+Depends: nginx-core (>= 2:1.31.3-3nwtf+401+resolute+v3.1), nginx-core (<< 2:1.31.3-3nwtf+401+resolute+v3.1.1~), libnginx-mod-stream (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-brotli (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-zstd (= 2:1.31.3-3nwtf+401+resolute+v3.1)
+Provides: httpd, httpd-cgi
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx_1.31.3-1nwtf+401+resolute+v3.1_all.deb
-Size: 4848
-SHA256: b0f66c49db7f440c683ae3dd20817c89127289183d25304e591ecf2460862668
-SHA1: 5a2f60ca0adaa70571de763c9792a3c4e92c7ff6
-MD5sum: 4dfc11fa33d013ea615db1783c611ba5
+Filename: pool/main/n/nginx/nginx_1.31.3-3nwtf+401+resolute+v3.1_all.deb
+Size: 5236
+SHA256: 196ec9c1bfae5885bde479976eb910a26c208258b107de3d96477dd95c2d0d12
+SHA1: 53361eb1019c749aba0050bb91511978b531422e
+MD5sum: fd2f4aa6ac3ef09c98e834998a05885b
 Description: small, powerful, scalable web/proxy server
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
  and as a proxy to reduce the load on back-end HTTP or mail servers.
  .
- This is a dependency package to install either nginx-core (by default),
- nginx-full, nginx-light or nginx-extras.
+ This metapackage installs the default nginx web server (nginx-core).
 
 Package: nginx-common
 Source: nginx
-Version: 2:1.31.3-1nwtf+401+resolute+v3.1
+Version: 2:1.31.3-3nwtf+401+resolute+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 280
+Installed-Size: 322
 Depends: lsb-base (>= 3.0-6), debconf (>= 0.5) | debconf-2.0
 Suggests: fcgiwrap, nginx-doc, ssl-cert
 Multi-Arch: foreign
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-common_1.31.3-1nwtf+401+resolute+v3.1_all.deb
-Size: 42628
-SHA256: 2130271a41680c67438b160efa8e6cc320d201e69bab75795ae121ef9af3735c
-SHA1: 412c2b683a11e587c2c0f18a655c1203d44100c3
-MD5sum: 5baeb5ff916ec3ddb3a97461949bf958
+Filename: pool/main/n/nginx/nginx-common_1.31.3-3nwtf+401+resolute+v3.1_all.deb
+Size: 73052
+SHA256: e40b8686ac46827505a5a7dd49161cb875bb3bbe464f663a93dbbaa64042ef20
+SHA1: 02b5673ea5cefc397ae47ac013d8878bb0cd6bbe
+MD5sum: 6ae5a4a47d90c547d9da7da88cabe410
 Description: small, powerful, scalable web/proxy server - common files
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -72,19 +72,19 @@ Description: small, powerful, scalable web/proxy server - common files
 
 Package: nginx-dev
 Source: nginx
-Version: 2:1.31.3-1nwtf+401+resolute+v3.1
+Version: 2:1.31.3-3nwtf+401+resolute+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 831
-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (<< 2:1.31.3-1nwtf+401+resolute+v3.1.1~) | nginx-light (<< 2:1.31.3-1nwtf+401+resolute+v3.1.1~) | nginx-extras (<< 2:1.31.3-1nwtf+401+resolute+v3.1.1~), nginx-core (>= 2:1.31.3-1nwtf+401+resolute+v3.1) | nginx-light (>= 2:1.31.3-1nwtf+401+resolute+v3.1) | nginx-extras (>= 2:1.31.3-1nwtf+401+resolute+v3.1)
+Installed-Size: 832
+Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (>= 2:1.31.3-3nwtf+401+resolute+v3.1), nginx-core (<< 2:1.31.3-3nwtf+401+resolute+v3.1.1~)
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-dev_1.31.3-1nwtf+401+resolute+v3.1_all.deb
-Size: 114612
-SHA256: 9ff1527d4162f458373f306ec7ea0385babe414f5fb1e568023ac6ca43602be4
-SHA1: ce5980497d5337c14d0f45cb325f67781054949c
-MD5sum: a2afde0d152459638cf54b78d8da9350
+Filename: pool/main/n/nginx/nginx-dev_1.31.3-3nwtf+401+resolute+v3.1_all.deb
+Size: 114908
+SHA256: bc2f4f3d61058297b7979a816aa5ca847fccffe93ef77c552b2e32f93d82eb45
+SHA1: ad52594ea20df72bd9f7223a26f9dfc962e920f8
+MD5sum: d715c666948e3ab866b7f97eb5d5296d
 Description: nginx web/proxy server - development headers
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -96,19 +96,19 @@ Description: nginx web/proxy server - development headers
 
 Package: nginx-doc
 Source: nginx
-Version: 2:1.31.3-1nwtf+401+resolute+v3.1
+Version: 2:1.31.3-3nwtf+401+resolute+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 42
+Installed-Size: 43
 Multi-Arch: foreign
 Homepage: https://nginx.net
 Priority: optional
 Section: doc
-Filename: pool/main/n/nginx/nginx-doc_1.31.3-1nwtf+401+resolute+v3.1_all.deb
-Size: 16312
-SHA256: b98730e2cb686ccfda160b4f4fe48c5008ead43f07f8b7277526f91adc61856b
-SHA1: fe19d7311ad902c5d72f53f6a77c032e29260ddb
-MD5sum: 029c886c9c89b828b72e2426dd307ecd
+Filename: pool/main/n/nginx/nginx-doc_1.31.3-3nwtf+401+resolute+v3.1_all.deb
+Size: 16692
+SHA256: 5a7eeb6e3a8c39ea733a16b0dbc6dc9f5bc83d0e3e9b68a6072a6a3e442398b7
+SHA1: 50e5c0dbf477f94c546ade9758c0582bf9d25193
+MD5sum: 5d647edacf8ceaf439826d363932c36b
 Description: small, powerful, scalable web/proxy server - documentation
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -116,46 +116,95 @@ Description: small, powerful, scalable web/proxy server - documentation
  .
  This package provides extra documentation to help unleash the power of Nginx.
 
-Package: nginx-full
+Package: nginx-extras
 Source: nginx
-Version: 2:1.31.3-1nwtf+401+resolute+v3.1
+Version: 2:1.31.3-3nwtf+401+resolute+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 17
-Depends: libnginx-mod-http-auth-pam, libnginx-mod-http-dav-ext, libnginx-mod-http-echo, libnginx-mod-http-geoip2, libnginx-mod-http-subs-filter, libnginx-mod-http-upstream-fair, libnginx-mod-stream-geoip2, nginx-core (>= 2:1.31.3-1nwtf+401+resolute+v3.1), nginx-core (<< 2:1.31.3-1nwtf+401+resolute+v3.1.1~)
-Suggests: nginx-doc (= 2:1.31.3-1nwtf+401+resolute+v3.1)
-Breaks: nginx (<< 1.4.5-1)
+Installed-Size: 21
+Depends: nginx-full (>= 2:1.31.3-3nwtf+401+resolute+v3.1), nginx-full (<< 2:1.31.3-3nwtf+401+resolute+v3.1.1~), libnginx-mod-http-acme (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-auth-pam (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-dav-ext (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-echo (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-geoip (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-geoip2 (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-image-filter (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-ipdb (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-lua (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-perl (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-uploadprogress (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-upstream-fair (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-xslt-filter (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-mail (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-nchan (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-stream-geoip (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-stream-geoip2 (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-rtmp (= 2:1.31.3-3nwtf+401+resolute+v3.1)
+Suggests: nginx-doc (= 2:1.31.3-3nwtf+401+resolute+v3.1)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-full_1.31.3-1nwtf+401+resolute+v3.1_all.deb
-Size: 5352
-SHA256: 58c1c155b2de595f2555167adf9025dd5a27f84220033533ade7cf25f24449c3
-SHA1: dfbd9363ea5474bc0b3cb4339d3c7b086159edbf
-MD5sum: dfa4dabf22953c3a0886b07bbb54f372
-Description: nginx web/proxy server (standard version with 3rd parties)
+Filename: pool/main/n/nginx/nginx-extras_1.31.3-3nwtf+401+resolute+v3.1_all.deb
+Size: 6316
+SHA256: d219f0dfb810bc5b88039fec4b4d01fb2de4ed1201b830c2d4769833a0b9c65d
+SHA1: 50739263b93e9295eba4007a7adf62a02e3a8a0f
+MD5sum: fcc4dbd058adf401909d4a983beda458
+Description: nginx web/proxy server (extended metapackage)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
  and as a proxy to reduce the load on back-end HTTP or mail servers.
  .
  This metapackage provides a version of nginx with the complete set of
- standard modules included (but omitting some of those included in
- nginx-extras).
+ extra third-party dynamic modules included.
  .
  STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
  GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
  Referer, Rewrite, SCGI, Split Clients, UWSGI.
  .
- OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, GeoIP, Gunzip,
- Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log, Real IP,
- Slice, SSI, SSL, Stream, SSL Preread, Stub Status, Substitution, Thread  Pool,
- Upstream, User ID, XSLT.
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, FLV, GeoIP,
+ Gunzip, Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log,
+ MP4, Embedded Perl, Random Index, Real IP, Slice, Secure Link, SSI, SSL,
+ SSL Preread, Stub Status, Substitution, Thread Pool, Upstream, User ID, XSLT.
  .
  OPTIONAL MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
  .
- OPTIONAL STREAM MODULES: Stream Core, GeoIP, GeoIP2
+ OPTIONAL STREAM MODULES: Stream, GeoIP, GeoIP2
  .
- THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, HTTP Substitutions, Upstream
- Fair Queue.
+ THIRD PARTY MODULES: Auth PAM, Cache Purge, DAV Ext, Echo, Fancy Index,
+ Headers More, Embedded Lua, HTTP Substitutions, Nchan, Upload Progress,
+ Upstream Fair Queue.
+
+Package: nginx-full
+Source: nginx
+Version: 2:1.31.3-3nwtf+401+resolute+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 18
+Depends: nginx (>= 2:1.31.3-3nwtf+401+resolute+v3.1), nginx (<< 2:1.31.3-3nwtf+401+resolute+v3.1.1~), libnginx-mod-http-headers-more-filter (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-cache-purge (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-fancyindex (= 2:1.31.3-3nwtf+401+resolute+v3.1), libnginx-mod-http-subs-filter (= 2:1.31.3-3nwtf+401+resolute+v3.1)
+Suggests: nginx-doc (= 2:1.31.3-3nwtf+401+resolute+v3.1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-full_1.31.3-3nwtf+401+resolute+v3.1_all.deb
+Size: 5332
+SHA256: 84768dcca18ed01ec76435fa7cff986e2253ceba7b7458e63d15c8ad828ece1c
+SHA1: bcf087375ac9fc000524dac0eeba3bce99d2ed81
+MD5sum: a65384f9a86ed2610a9e87644d91f978
+Description: nginx web/proxy server (standard metapackage)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This metapackage provides a version of nginx with standard third-party
+ dynamic modules included (headers-more, cache-purge, fancyindex, subs-filter).
+
+Package: nginx-light
+Source: nginx
+Version: 2:1.31.3-3nwtf+401+resolute+v3.1
+Architecture: all
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 21
+Depends: nginx-core (>= 2:1.31.3-3nwtf+401+resolute+v3.1), nginx-core (<< 2:1.31.3-3nwtf+401+resolute+v3.1.1~)
+Suggests: nginx-doc (= 2:1.31.3-3nwtf+401+resolute+v3.1)
+Provides: httpd, httpd-cgi, nginx
+Homepage: https://nginx.net
+Priority: optional
+Section: httpd
+Filename: pool/main/n/nginx/nginx-light_1.31.3-3nwtf+401+resolute+v3.1_all.deb
+Size: 5748
+SHA256: 10bee4caaa5e278dd3de2e5fcd30a0c3c397a2ec2012ee1a6cd2badd62016328
+SHA1: a92f5064b8423e5ff6062d9c0c31469c6f2a49f0
+MD5sum: cf32120920c511fa9914a124fb193c68
+Description: nginx web/proxy server (basic metapackage)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This metapackage provides a minimal installation of nginx (nginx-core)
+ with zero extra dynamic modules loaded.
 
