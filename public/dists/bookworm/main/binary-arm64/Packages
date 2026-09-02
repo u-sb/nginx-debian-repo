@@ -625,6 +625,33 @@ Description: New FFI-based Lua API for NGINX Lua module
  the standard Lua C API, which will never be JIT compiled and the user Lua code
  is always interpreted (slowly).
 
+Package: lua-resty-lrucache
+Version: 0.15-2
+Architecture: all
+Maintainer: Debian Lua Team <pkg-lua-devel@lists.alioth.debian.org>
+Installed-Size: 42
+Depends: libluajit-5.1-2
+Provides: lua5.1-resty-lrucache
+Homepage: https://github.com/openresty/lua-resty-lrucache
+Priority: optional
+Section: net
+Filename: pool/main/l/lua-resty-lrucache/lua-resty-lrucache_0.15-2_all.deb
+Size: 10700
+SHA256: ea04a6afb7ceefe51079d3a5154ca2e3fe2317e439a306a013e9bcd28251eeb9
+SHA1: 44d909d27954f144d6d9c17693ee02d1ee27d219
+MD5sum: 92643b8f05f352a897a208e2432f3ba3
+Description: Simple LRU cache for the ngx_lua module
+ The LRU cache resides completely in the Lua VM and is subject to Lua GC.
+ As such, do not expect it to get shared across the OS process boundary.
+ The upside is that you can cache arbitrary complex Lua values (such as deep
+ nested Lua tables) without the overhead of serialization (as with ngx_lua's
+ shared dictionary API). The downside is that your cache is always limited to
+ the current OS process (i.e. the current Nginx worker process). It does not
+ really make much sense to use this library in the context of init_by_lua
+ because the cache will not get shared by any of the worker processes (unless
+ you just want to "warm up" the cache with predefined items which will
+ get inherited by the workers via fork()).
+
 Package: nginx
 Version: 2:1.31.4-3nwtf+402+12bookworm1
 Architecture: all
