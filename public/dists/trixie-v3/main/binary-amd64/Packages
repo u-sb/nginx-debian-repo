@@ -1,19 +1,19 @@
 Package: libnginx-mod-http-acme
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 12137
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.39), libgcc-s1 (>= 4.2)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.39), libgcc-s1 (>= 4.2)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-acme_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 3284316
-SHA256: fb05712a56b17b24a45c5684fecdbbd1996709e20855bdc20d19c4a4a52de730
-SHA1: f84eb4088925281a679f4cb02654e263f027ba6e
-MD5sum: 07d5807bae34cb28bd232e3a27ff6aae
+Filename: pool/main/n/nginx/libnginx-mod-http-acme_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 3283872
+SHA256: 393d4976271dfa824a2df41f013ca9c99018ce51fc47d8d27c7a2e5d9e2c6272
+SHA1: 5081beeb559caffa5bdd776243c9f2351e1828dc
+MD5sum: a27394cc3f3f3ded65180aa4320bd895
 Description: ACME protocol support for Nginx
  The ngx_http_acme_module implements the Automatic Certificate Management
  Environment (ACMEv2) protocol (RFC 8555) for automated SSL/TLS certificate
@@ -21,20 +21,20 @@ Description: ACME protocol support for Nginx
 
 Package: libnginx-mod-http-auth-pam
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 103
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-auth-pam_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 72060
-SHA256: 848a9a7820b67ab15650e4c6f33515e1dbda0c72f7cf3d7d3f79f084a01b629f
-SHA1: 933ac9fd95b3e6caf602822de5815bcee8888c9d
-MD5sum: ffc336fe34b32d9e8cb260314277949e
+Filename: pool/main/n/nginx/libnginx-mod-http-auth-pam_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 72068
+SHA256: 1bafddf257c989c50b0465fa118f2fe9d0272b49d3d688c52b4429c4e326e53b
+SHA1: b0fafb1cca2f6c5f2cc625a13bf3a0fb16be5599
+MD5sum: 99d9fd601a263dbb0be52be6690896bc
 Description: PAM authentication module for Nginx
  The nginx_http_auth_pam module enables authentication using PAM.
  .
@@ -43,20 +43,20 @@ Description: PAM authentication module for Nginx
 
 Package: libnginx-mod-http-brotli
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 131
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libbrotli1 (>= 0.6.0), libc6 (>= 2.4)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libbrotli1 (>= 0.6.0), libc6 (>= 2.4)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-brotli_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 75800
-SHA256: 575fdc6b08dfbf28081b018caefb3b570378bb91bb3e512e13b1ffa7327f5abf
-SHA1: c9019bfeb2e74e0009379e9f2e67839ff55b3f5f
-MD5sum: 1e722bc061b7fe79d1ea7fd3eec31049
+Filename: pool/main/n/nginx/libnginx-mod-http-brotli_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 75812
+SHA256: 71314a479e8ce77f9d06ed8e653e3f3207168aed124ad921e0f8df9719021916
+SHA1: d8e08f890a6a50265c58543beefcbaebcfb8220c
+MD5sum: 551d975f020cb30e849638f7f09bf776
 Description: Brotli compression module for Nginx
  The ngx_brotli module enables Brotli dynamic compression and static
  pre-compression support for Nginx web server.
@@ -66,20 +66,20 @@ Description: Brotli compression module for Nginx
 
 Package: libnginx-mod-http-cache-purge
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 123
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-cache-purge_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 80160
-SHA256: 84ba6b99428a91c558bb5dbd7f7c7cf14bb1bd76d3862efeb5f25524814ae5ff
-SHA1: f1e7c5ab812e5c369fd4780a884dee5204e4ee5a
-MD5sum: a307c3e39366fe6f7d7df37700be39fd
+Filename: pool/main/n/nginx/libnginx-mod-http-cache-purge_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 80168
+SHA256: 1aa17b113fc1b3e6e9f5b0d20d4171abda70566757e5bcc43e450c1f70ff3e5c
+SHA1: 577320396d4f8fbc5418259613bb9d483881ef62
+MD5sum: c4d6608f67a9003365642c7e1a880f53
 Description: Purge content from Nginx caches
  Cache Purge module adds purging capabilities to Nginx. It allows purging
  content from caches used by all of Nginx proxy modules, like FastCGI, Proxy,
@@ -87,20 +87,20 @@ Description: Purge content from Nginx caches
 
 Package: libnginx-mod-http-dav-ext
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 124
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.33), libxml2 (>= 2.7.4)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.33), libxml2 (>= 2.7.4)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-dav-ext_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 79524
-SHA256: 094a3db094fa09967466c757b31a42ce267d2a1eb1ffd5d9b57e7357addefa5c
-SHA1: 56e15691c8b7a8479a74a694621f1633624b55a4
-MD5sum: 9a809cea52f2956417bd9dab16589c0e
+Filename: pool/main/n/nginx/libnginx-mod-http-dav-ext_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 79532
+SHA256: e3d7740ede09975cad6311d0ff5f3fea092d5898c4f9d302d0bcb925ce10a5a1
+SHA1: fe8c5a59d8749fe30ee30245048a2dcc85faafab
+MD5sum: e464e30079040b1a526c1a915e210af2
 Description: WebDAV missing commands support for Nginx
  WebDAV Ext module complements the Nginx WebDAV module to provide a full
  WebDAV support.
@@ -109,20 +109,20 @@ Description: WebDAV missing commands support for Nginx
 
 Package: libnginx-mod-http-echo
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 137
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-echo_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 83900
-SHA256: c266e1c2f591f6e819fa7e03bafc4fdf58f7598bdb747c192fc51cf21d173c4b
-SHA1: 6ce1377d442421755c0956b27eea788a55fcd9b9
-MD5sum: 3c01901eb97cc18513999a73e92ba07a
+Filename: pool/main/n/nginx/libnginx-mod-http-echo_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 83924
+SHA256: 08300bad3e1c31ab4b165da9d5a84bfe788f8ca34e4c4793eebbd1bab65fc8a4
+SHA1: b101ffdd2c5eb669c062eb3f0ad513838025a775
+MD5sum: 6bc18631279056814a818a39f400eba8
 Description: Bring echo and more shell style goodies to Nginx
  Echo module wraps lots of Nginx internal APIs for streaming input and output,
  parallel/sequential subrequests, timers and sleeping, as well as various meta
@@ -143,20 +143,20 @@ Description: Bring echo and more shell style goodies to Nginx
 
 Package: libnginx-mod-http-fancyindex
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 120
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.33)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.33)
 Suggests: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-fancyindex_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 77820
-SHA256: b5e909ce1da1b175e8fdb9353cef6231ef14484b572d7f69e0c8ebe3200d83e2
-SHA1: c294542072558a85097f8cfb3e3701304aad5674
-MD5sum: 2750801d1aa76665d80a1102b1881ca8
+Filename: pool/main/n/nginx/libnginx-mod-http-fancyindex_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 77836
+SHA256: f6f9a3a71a06b8ed8681cc6344d0c4b55042f50f20df33a1a2075105d68627dd
+SHA1: f853e58c7f359fa53fede9af9cdeaac1e37499cd
+MD5sum: 52628e82ffe92b1207a7503dd10d7d34
 Description: Fancy indexes module for the Nginx
  The Fancy Index module makes possible the generation of file listings, like
  the built-in autoindex module does, but adding a touch of style by introducing
@@ -164,20 +164,20 @@ Description: Fancy indexes module for the Nginx
 
 Package: libnginx-mod-http-geoip
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 108
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libgeoip1t64 (>= 1.6.12)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libgeoip1t64 (>= 1.6.12)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-geoip_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 73176
-SHA256: 1fa12c5b6526d31ca664f5e0901b2dfc04f9f05511b9c607f063aacd70dc927c
-SHA1: afc8c8d0617e4a7a62af2245b21ef5610d45bb53
-MD5sum: d6590704a5c767f632af5f501b8d24ad
+Filename: pool/main/n/nginx/libnginx-mod-http-geoip_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 73200
+SHA256: 6f831d356ff181bd4f827be3b46ad346adf7c52df0138c2f4259bf5a17fac2cb
+SHA1: 07f8b1ece33788e9748da92b3afd6ef3c48b26d0
+MD5sum: 4cde9c302525da90001fe8cb0958723d
 Description: GeoIP HTTP module for Nginx
  The ngx_http_geoip module creates variables with values depending on the
  client IP address, using the precompiled MaxMind databases.
@@ -187,20 +187,20 @@ Description: GeoIP HTTP module for Nginx
 
 Package: libnginx-mod-http-geoip2
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 107
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.33), libmaxminddb0 (>= 1.0.2)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.33), libmaxminddb0 (>= 1.0.2)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-geoip2_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 73784
-SHA256: 6f16c333e8452c073412c632e43c0252d9f9685217787c672356154334ab3d1d
-SHA1: 759b6e6e63180d51ed4f40cf4bb6a28276cea196
-MD5sum: dc372a9def1581c8df361d97a4aff90b
+Filename: pool/main/n/nginx/libnginx-mod-http-geoip2_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 73796
+SHA256: 432deee366ebb58d6ec9137d70b6cb1d309baf2eb859e0ab350bc19732d7ba49
+SHA1: 4ae7616b0c09254930d39d48d04c4897971e9d30
+MD5sum: b6f79ac66f4555ad415898462c6c51c9
 Description: GeoIP2 HTTP module for Nginx
  The ngx_http_geoip2 module creates variables with values depending on the
  client IP address, using the precompiled MaxMind GeoIP2 databases.
@@ -210,20 +210,20 @@ Description: GeoIP2 HTTP module for Nginx
 
 Package: libnginx-mod-http-headers-more-filter
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 120
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-headers-more-filter_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 77692
-SHA256: 23c9f65384f79a017fd5f9922647bfc49beae8045fb30a63926822cd6f3a2c8a
-SHA1: cce056a1b530ae008a66235973b020904abaa7c6
-MD5sum: ea772113d3f2e0810eac70331cca3972
+Filename: pool/main/n/nginx/libnginx-mod-http-headers-more-filter_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 77696
+SHA256: 2c4724bd29cc637d5b7345ed7ec3353648353c2f0d3ca84fcc77d6626b5a1d83
+SHA1: f57392d81b82d4cca0d89f0db39d315199c7a707
+MD5sum: 21bc04438b45ba90572a814b17d64e8b
 Description: Set and clear input and output headers for Nginx
  The Headers More module allows you to add, set, or clear any output or input
  header that you specify.
@@ -234,20 +234,20 @@ Description: Set and clear input and output headers for Nginx
 
 Package: libnginx-mod-http-image-filter
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 115
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libgd3 (>= 2.1.0~alpha~)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libgd3 (>= 2.1.0~alpha~)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-image-filter_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 77044
-SHA256: eb4166a7fd6637d4f27c32e576293136ae18e286c3fcd415785330fc4f5b5645
-SHA1: c0e613baace73c4f030ef1076a697ead77fa8386
-MD5sum: 176f0128907f07da3a6862cc30ff3791
+Filename: pool/main/n/nginx/libnginx-mod-http-image-filter_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 77052
+SHA256: b4ba89a56f2e6c7a0016d78f401945686a74f93e8f0ab5fc0266b4a11576fa53
+SHA1: 975c0302c49e38a1e53f07bb48d667dc0760630c
+MD5sum: 829436cd9ebd7db1bfa6dbe780f5be87
 Description: HTTP image filter module for Nginx
  The ngx_http_image_filter module is a filter that transforms images in JPEG,
  GIF, and PNG formats.
@@ -257,40 +257,40 @@ Description: HTTP image filter module for Nginx
 
 Package: libnginx-mod-http-ipdb
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 112
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libjson-c5 (>= 0.15)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libjson-c5 (>= 0.15)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-ipdb_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 74924
-SHA256: b36c0a62d790c348519d267b93e418c9bc4e2fb298929613c13af0a9e958cb1e
-SHA1: a5875fb3b295d0e145affd74dda1b85388343924
-MD5sum: 2660ba02d3d3090f41792a08413acf78
+Filename: pool/main/n/nginx/libnginx-mod-http-ipdb_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 74948
+SHA256: 079e5fa2af70a98ce8456218ca56a06ed4da9edf8632a570416d0a90210d5051
+SHA1: b7fc4bf60cda19ae98d56e8c096f51e9f1bcfa61
+MD5sum: 9049ebfe89f2da415bb4001cc7a73acf
 Description: IPDB IP database support for Nginx
  The ngx_http_ipdb_module enables creating variables with values depending on
  the client IP address using the IPIP.net IPDB database format.
 
 Package: libnginx-mod-http-lua
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 545
-Depends: libnginx-mod-http-ndk (= 2:1.31.4-3nwtf+402+13trixie+v3.1), lua-resty-core, nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.33), libluajit-5.1-2 (>= 2.1.0) | libluajit-5.1-2 (>= 2.1.0+openresty)
+Depends: libnginx-mod-http-ndk (= 2:1.31.5-1nwtf+402+13trixie+v3.1), lua-resty-core, nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.33), libluajit-5.1-2 (>= 2.1.0) | libluajit-5.1-2 (>= 2.1.0+openresty)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-lua_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 228284
-SHA256: c0d13ee931d3dd7196ad1c821f43524af151baabdc7645571335a1d86d0bb092
-SHA1: 6f23da327541d91ea84bb7095616079b1bee2768
-MD5sum: 404c03c6853b44a5012639cfa427032b
+Filename: pool/main/n/nginx/libnginx-mod-http-lua_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 228312
+SHA256: 35a9331e22c149fafc248fceb8011bf993b6c6c885a80f45d83e4c90f8f21d96
+SHA1: 22a702a7d05d8796a490f5565be1354ee212db9c
+MD5sum: aebe0030ef7c3c12ecc533f20a214180
 Description: Lua module for Nginx
  Embed Lua runtime into nginx.
  .
@@ -301,20 +301,20 @@ Description: Lua module for Nginx
 
 Package: libnginx-mod-http-ndk
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 106
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.4)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.4)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-ndk_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
+Filename: pool/main/n/nginx/libnginx-mod-http-ndk_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
 Size: 72648
-SHA256: 47a0d4efe87b6017aba9be2da26cc14fe4b59f5cb8e8edd6b26dc7673890f722
-SHA1: 27be62da0cf8acd7a6894ac60f1cc54e383084fe
-MD5sum: e50fa0605df06c82bca9f806a16d732a
+SHA256: d1526fd66e9092b7d03104f787eae35544ecbe737d9946c65a10b963d5e4b9f4
+SHA1: a49c35221f2399c7b4cd8f39ab59330427b54d2f
+MD5sum: 7a0781a371ed5fdab2421cb48799fd2c
 Description: Nginx Development Kit module
  The NDK is an Nginx module that is designed to extend the core functionality of
  the excellent Nginx webserver in a way that can be used as a basis of other
@@ -327,21 +327,21 @@ Description: Nginx Development Kit module
 
 Package: libnginx-mod-http-perl
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 162
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), perl (>= 5.40.1-6), perlapi-5.40.1, libc6 (>= 2.34), libperl5.40 (>= 5.40.0)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), perl (>= 5.40.1-6), perlapi-5.40.1, libc6 (>= 2.34), libperl5.40 (>= 5.40.0)
 Recommends: nginx
 Replaces: nginx-extras (<< 1.9.14-1)
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-perl_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 86040
-SHA256: 7249af7ca2a9c6e80234ff77760d434a088d3601c16b3ff3666b0b6764cca7fb
-SHA1: 7c8d73b31dafef3cca489fac2d453ee34ff1c03a
-MD5sum: bd055621c5691958605124427c775474
+Filename: pool/main/n/nginx/libnginx-mod-http-perl_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 86080
+SHA256: 3bb4ea5b1eeea27a0f69d8a77af309d741f8ef66b282b5e054f8ac3274b1321c
+SHA1: ef66ec9383409b4b05a0af81798d3d14b08209da
+MD5sum: 43402b0dddabf563026977937fd4ca1a
 Description: Perl module for Nginx
  Embed Perl runtime into nginx.
  .
@@ -352,20 +352,20 @@ Description: Perl module for Nginx
 
 Package: libnginx-mod-http-subs-filter
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 107
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-subs-filter_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 75036
-SHA256: 4c8f6e7864abfa5abf30ef37a4cabf5ae9e7ca22085702cac241e6590ed28fa4
-SHA1: ca20a56b03059e3baa3cb3cc62377b00e8cd901e
-MD5sum: 20707bbbedf6d40f3e2cd13e34b64e0a
+Filename: pool/main/n/nginx/libnginx-mod-http-subs-filter_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 75032
+SHA256: 87fd90e718d76261a4a81033ade4a5a52bb49a24d239196771b3101325c6d221
+SHA1: 9f87dcabd5fe85b22bb0cf913b8e133541359ded
+MD5sum: 2665d3efbf8f6e2107192a149eeb3714
 Description: Substitution filter module for Nginx
  Subsitution Nginx module can do both regular expression and fixed string
  substitutions on response bodies. The module is quite different from Nginx's
@@ -374,20 +374,20 @@ Description: Substitution filter module for Nginx
 
 Package: libnginx-mod-http-uploadprogress
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 124
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-uploadprogress_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 78744
-SHA256: 8fe84bd11860ad1fe9d3d7f35c5a5f5bfa6fed299c59d2313e66194b898f26ba
-SHA1: 1d79d7428c003da8fecc24873d68235fea787a27
-MD5sum: 46fdc0384c3e66555140d83866a645b8
+Filename: pool/main/n/nginx/libnginx-mod-http-uploadprogress_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 78752
+SHA256: cdbfbe00bd7d6db37a54900f2e16fcbf11716c11d42549ef792dab23f65d9bb9
+SHA1: c4a86d01f7a16d9b1ea3eb2dba75683f6c8b0252
+MD5sum: d6cd903f8c44ae23a3b3a4e644c9354f
 Description: Upload progress system for Nginx
  Upload progress module is an implementation of an upload progress system, that
  monitors RFC1867 POST uploads as they are transmitted to upstream servers.
@@ -398,20 +398,20 @@ Description: Upload progress system for Nginx
 
 Package: libnginx-mod-http-upstream-fair
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 107
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.4)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.4)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-upstream-fair_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 75396
-SHA256: c3939c1f28b89f7314c9457a21e875cd2a251085462827853c30696300912aeb
-SHA1: 3e3de84f2cd73832bff9433aa1b5574dcae0c975
-MD5sum: 969f486a2c13ecc350769610dc2acbc8
+Filename: pool/main/n/nginx/libnginx-mod-http-upstream-fair_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 75424
+SHA256: 5316c3f640e0aee36429004a5834d47221b7408f5fba4152717d5e0ac325fb6a
+SHA1: c709361904f59c6efdc9fa543ae867783617b6dc
+MD5sum: a6d9519795df1616341c3fb0885eb1d6
 Description: Nginx Upstream Fair Proxy Load Balancer
  The Nginx fair proxy balancer enhances the standard round-robin load balancer
  provided with Nginx so that it tracks busy backend servers and adjusts
@@ -419,20 +419,20 @@ Description: Nginx Upstream Fair Proxy Load Balancer
 
 Package: libnginx-mod-http-xslt-filter
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 119
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-xslt-filter_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 76016
-SHA256: b979429d8a4f13eed29ac34b02aad1efc9c78d27fb930c06be61a99a26fc334f
-SHA1: 24139fd7147f6af1d409dc52b1dd08b787132d25
-MD5sum: 615b8e546ad3157000e26e5cf2693f01
+Filename: pool/main/n/nginx/libnginx-mod-http-xslt-filter_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 76028
+SHA256: 1c12c489a6099526df7c46e18a74f889cb0dc85416bf4a40f39cab0c076c845b
+SHA1: f717aa3bf13a8ed52e680cf152a35218005199ea
+MD5sum: c6c74b60a9dcedd93ad1f60c74d3a49c
 Description: XSLT Transformation module for Nginx
  The ngx_http_xslt_filter module is a filter that transforms XML responses
  using one or more XSLT stylesheets.
@@ -442,20 +442,20 @@ Description: XSLT Transformation module for Nginx
 
 Package: libnginx-mod-http-zstd
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 764
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.33)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.33)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-zstd_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 277924
-SHA256: d8c10619cd097034333e780f0fd80de69963f23adbcb22a69e9416bbe14da37a
-SHA1: a5cf2f70d7bf7e65bfdb3b3f7123af59392c0e02
-MD5sum: 435ce6240576d4783d21106c28387a26
+Filename: pool/main/n/nginx/libnginx-mod-http-zstd_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 278052
+SHA256: 0bf38616c424d3e2c6c577feaffe83476f3a5615e8a63d4769a468053ef0f793
+SHA1: e1855b90cca92b3165b288aecc38cc04d43dbb59
+MD5sum: 3f138bb49f641c946d9fba45dd9d280a
 Description: Zstandard compression module for Nginx
  The ngx_zstd module enables Zstandard (zstd) dynamic compression and static
  pre-compression support for Nginx web server.
@@ -465,20 +465,20 @@ Description: Zstandard compression module for Nginx
 
 Package: libnginx-mod-mail
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 202
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-mail_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 108028
-SHA256: fb39650345cc6f3d91551703e2201f896822b74e0213d5467a327c399f4d7ebc
-SHA1: d61b35e0de459392705d2da6f4383185dba1edb1
-MD5sum: e96dde4e06c465bee64f6267d50df489
+Filename: pool/main/n/nginx/libnginx-mod-mail_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 107980
+SHA256: 15183dfa18bb94be1e4ba14053af07ae5c1c1b8b3a94db4d43f113a80032a375
+SHA1: c110996bd5fc6b22c21639176ddda79dc36e85b6
+MD5sum: 427b4b37d2adc2727102a52af563a1f6
 Description: Mail module for Nginx
  The nginx_mail module adds mail proxy support to nginx.
  .
@@ -487,20 +487,20 @@ Description: Mail module for Nginx
 
 Package: libnginx-mod-nchan
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 798
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.38)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.38)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-nchan_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 311220
-SHA256: 387c19216772e99df917b1df6a15b74960b23d85b7a07edcbe0472a8d558a89e
-SHA1: 7ddf810905adf89bf3aa56fb017a270e34691e56
-MD5sum: 600b085d7da98232d579fd4354416b54
+Filename: pool/main/n/nginx/libnginx-mod-nchan_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 311268
+SHA256: 1d5fbaafc954e92721d868c09e8e30c403593a4a6feeb490c7b9ac575e92ac76
+SHA1: 0073c16e1ba3a3f940c17789ba1553c960217b5a
+MD5sum: 0ede04336f3465b320131f84829cf353
 Description: Fast, flexible pub/sub server for Nginx
  Nchan is a scalable, flexible pub/sub server for the modern web, It can be
  configured as a standalone server, or as a shim between your application and
@@ -513,40 +513,40 @@ Description: Fast, flexible pub/sub server for Nginx
 
 Package: libnginx-mod-rtmp
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 417
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.38)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.38)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-rtmp_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 188140
-SHA256: 5ca19fc7435118897aab222173e10445fea85b7ce00db5a72bfd4dee3cdac7f1
-SHA1: def71cf5e5d233ab8d4aadf877a8d7650fcb2721
-MD5sum: 45c97ef71a451eb0eec10341b4b766d8
+Filename: pool/main/n/nginx/libnginx-mod-rtmp_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 187972
+SHA256: 53b12a2652aed4475189b4fa3637bd435cec0df01589d56cb985bacdbf319c67
+SHA1: af75538c23ba70e5fcc463d4e654705ce82b0034
+MD5sum: e2b9206556df65f870f9917e9f91357a
 Description: RTMP support for Nginx
  The nginx RTMP module is a fully-featured streaming solution implemented in
  nginx.
 
 Package: libnginx-mod-stream
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 308
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.33)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.33)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-stream_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 146680
-SHA256: fed281b01694e7a51b71a6629f463ffe4ca6310390e495cd3783d1f4b3798f21
-SHA1: e6d3f49ced659323e1ef13e9a0278df83ac92c4d
-MD5sum: 41271f4bdff363b6de031bd624866f05
+Filename: pool/main/n/nginx/libnginx-mod-stream_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 146896
+SHA256: 5ecde7757a41d8abfc573814532b44b992c6f0d1e53dcead689813a867047112
+SHA1: 8b1d813140d65b8c6c19ed2d944f0825bad6cf4e
+MD5sum: 5063208c3237bfb946dcc4cfdd2276af
 Description: Stream module for Nginx
  The nginx_stream module adds stream proxy support to nginx.
  .
@@ -556,20 +556,20 @@ Description: Stream module for Nginx
 
 Package: libnginx-mod-stream-geoip
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 108
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libgeoip1t64 (>= 1.6.12), libnginx-mod-stream (= 2:1.31.4-3nwtf+402+13trixie+v3.1)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.14), libgeoip1t64 (>= 1.6.12), libnginx-mod-stream (= 2:1.31.5-1nwtf+402+13trixie+v3.1)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-stream-geoip_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 72372
-SHA256: 0f908e26f12f366a2f7f42facbab3f6cd875fb978f676dc3bf97762d4d04d02d
-SHA1: 03ab4e1833bfbbf0fdbfcc4534d2bb80f538517a
-MD5sum: 7947faa4d3d3544bdec96992dd765291
+Filename: pool/main/n/nginx/libnginx-mod-stream-geoip_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 72380
+SHA256: 5a36492f9b3c1527a251699e61a8917328d7561d30e443e8f9b956095469caad
+SHA1: a54e66469e86f1ac4b9c3afd52f3c1404c281bb1
+MD5sum: 0742ee9041cb1db038f89317df460ff3
 Description: GeoIP Stream module for Nginx
  The ngx_stream_geoip module creates variables with values depending on the
  client IP address, using the precompiled MaxMind databases.
@@ -579,20 +579,20 @@ Description: GeoIP Stream module for Nginx
 
 Package: libnginx-mod-stream-geoip2
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 107
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libc6 (>= 2.33), libmaxminddb0 (>= 1.0.2), libnginx-mod-stream (= 2:1.31.4-3nwtf+402+13trixie+v3.1)
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libc6 (>= 2.33), libmaxminddb0 (>= 1.0.2), libnginx-mod-stream (= 2:1.31.5-1nwtf+402+13trixie+v3.1)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-stream-geoip2_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 73440
-SHA256: 1594cc754a8fb8b85ae44c2676bfd0b818b8371f153b1968df46ec5fc901730d
-SHA1: fb134c8b7aa921c62375e90493d560d8ba90ae4d
-MD5sum: 04aae5c37947b775f4c73da5ef6fc693
+Filename: pool/main/n/nginx/libnginx-mod-stream-geoip2_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 73452
+SHA256: 37a2acefba28dba711dd643bb021ebc159983b3facf1eb0ff4922ba750413eab
+SHA1: c629422a4bdefe358d9be92719b91344f041abf7
+MD5sum: 60149944bc288c7a048bd431314d2457
 Description: GeoIP2 Stream module for Nginx
  The ngx_stream_geoip2 module creates variables with values depending on the
  client IP address, using the precompiled MaxMind GeoIP2 databases.
@@ -626,20 +626,20 @@ Description: New FFI-based Lua API for NGINX Lua module
  is always interpreted (slowly).
 
 Package: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 79
-Depends: nginx-core (>= 2:1.31.4-3nwtf+402+13trixie+v3.1), nginx-core (<< 2:1.31.4-3nwtf+402+13trixie+v3.1.1~), libnginx-mod-stream (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-brotli (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-zstd (= 2:1.31.4-3nwtf+402+13trixie+v3.1)
+Depends: nginx-core (>= 2:1.31.5-1nwtf+402+13trixie+v3.1), nginx-core (<< 2:1.31.5-1nwtf+402+13trixie+v3.1.1~), libnginx-mod-stream (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-brotli (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-zstd (= 2:1.31.5-1nwtf+402+13trixie+v3.1)
 Provides: httpd, httpd-cgi
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx_1.31.4-3nwtf+402+13trixie+v3.1_all.deb
-Size: 67736
-SHA256: f73c7607ac2877fd31ba6002e41dd95335e6c247b674ac72b91b902d94812fbc
-SHA1: 76621b0af58ead750d0619e7f0cfe193c5b17f31
-MD5sum: 18c017291132ea94f23e2693b13849bf
+Filename: pool/main/n/nginx/nginx_1.31.5-1nwtf+402+13trixie+v3.1_all.deb
+Size: 67748
+SHA256: b6758fcc24f6882cd922aa52bbc84dab799f323a9f8b227cc674ae8a84c1ea2b
+SHA1: a110a402d655c460e3dd4ffb80d68206c8db5677
+MD5sum: 8a078c99517f4f2b054628a1c0ed4198
 Description: small, powerful, scalable web/proxy server
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -649,7 +649,7 @@ Description: small, powerful, scalable web/proxy server
 
 Package: nginx-common
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 383
@@ -659,11 +659,11 @@ Multi-Arch: foreign
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-common_1.31.4-3nwtf+402+13trixie+v3.1_all.deb
-Size: 135808
-SHA256: 0d2e6dc056ccb065a755d73ccf53a000c22cfab538719991749ef30babae0dfa
-SHA1: 35ce677660278c0e1ea9003e823d0aefbd304619
-MD5sum: ae45488d35468743c58613fae5fb343e
+Filename: pool/main/n/nginx/nginx-common_1.31.5-1nwtf+402+13trixie+v3.1_all.deb
+Size: 135820
+SHA256: 84edaede845ecf61078ac7dbc85a39a564e980ade265dacff82b2ee67dfb39d0
+SHA1: e00c4be64c66677e886ca920a8e0c5f2237cc0a2
+MD5sum: 5f9029422f53635bd889391308951a42
 Description: small, powerful, scalable web/proxy server - common files
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -674,23 +674,23 @@ Description: small, powerful, scalable web/proxy server - common files
 
 Package: nginx-core
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: amd64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 8150
-Depends: nginx-common (= 2:1.31.4-3nwtf+402+13trixie+v3.1), iproute2, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpcre2-8-0 (>= 10.22), zlib1g (>= 1:1.1.4)
-Suggests: nginx-doc (= 2:1.31.4-3nwtf+402+13trixie+v3.1)
+Installed-Size: 8159
+Depends: nginx-common (= 2:1.31.5-1nwtf+402+13trixie+v3.1), iproute2, libc6 (>= 2.38), libcrypt1 (>= 1:4.1.0), libpcre2-8-0 (>= 10.22), zlib1g (>= 1:1.1.4)
+Suggests: nginx-doc (= 2:1.31.5-1nwtf+402+13trixie+v3.1)
 Breaks: nginx (<< 1.4.5-1), nginx-full (<< 1.18.0-1)
 Replaces: nginx-full (<< 1.18.0-1)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-core_1.31.4-3nwtf+402+13trixie+v3.1_amd64.deb
-Size: 2536024
-SHA256: 997b40bb49561677e3f57cc645f9909b474e5235b603b5da63ec15c7bcea31aa
-SHA1: bf0c8e3de5718ea704814e149c574723a9e96cce
-MD5sum: f9b4e986f20ca6c58fa8399c72ab3ea1
+Filename: pool/main/n/nginx/nginx-core_1.31.5-1nwtf+402+13trixie+v3.1_amd64.deb
+Size: 2537524
+SHA256: ff2c0d3e845a360138322a48342a9acdc5b4a6bf14ccbab50bd081af2e3517e6
+SHA1: 85253c49824b5722d554831a748724d8924cb5bf
+MD5sum: a0064a713f9a79a334e6e5538a5bb6a2
 Description: nginx web/proxy server (core binary package)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -701,19 +701,19 @@ Description: nginx web/proxy server (core binary package)
 
 Package: nginx-dev
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 899
-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (>= 2:1.31.4-3nwtf+402+13trixie+v3.1), nginx-core (<< 2:1.31.4-3nwtf+402+13trixie+v3.1.1~)
+Installed-Size: 906
+Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (>= 2:1.31.5-1nwtf+402+13trixie+v3.1), nginx-core (<< 2:1.31.5-1nwtf+402+13trixie+v3.1.1~)
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-dev_1.31.4-3nwtf+402+13trixie+v3.1_all.deb
-Size: 178096
-SHA256: a7787c83e76185d2e906c6ec6858e2dfc22beb0999afd118c34480cce44bb40e
-SHA1: 846f0f7c061e6fa1695f631d691903d8fc35ceed
-MD5sum: f1fd74f699a8291a71ed696939308407
+Filename: pool/main/n/nginx/nginx-dev_1.31.5-1nwtf+402+13trixie+v3.1_all.deb
+Size: 179268
+SHA256: d84ecf7a68308eebf37ffea083d502ae8cc1309885288b19f9625916e924b4a7
+SHA1: 50986b717faffb31f8a9e8b045a1348dff1b10a4
+MD5sum: 2ed1391ce40ae241e361339def64b25e
 Description: nginx web/proxy server - development headers
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -725,7 +725,7 @@ Description: nginx web/proxy server - development headers
 
 Package: nginx-doc
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 104
@@ -733,11 +733,11 @@ Multi-Arch: foreign
 Homepage: https://nginx.net
 Priority: optional
 Section: doc
-Filename: pool/main/n/nginx/nginx-doc_1.31.4-3nwtf+402+13trixie+v3.1_all.deb
-Size: 79212
-SHA256: c7195aef023b7ca4a10241a5f273d964e13af4af2d6ee7ba9984c54cb4f22095
-SHA1: 13074827136e6e2da7a3972425517b7b23d2f42d
-MD5sum: 8fc3fb7e2f1cc0d5d551905951b63e3c
+Filename: pool/main/n/nginx/nginx-doc_1.31.5-1nwtf+402+13trixie+v3.1_all.deb
+Size: 79244
+SHA256: 7631cb658ea21258777745c6da2b53b63bb290658adda37025e95531788c9506
+SHA1: c33e42f1fe42cf6025d32aee97531fa206a7cfcd
+MD5sum: 9c45a497a4496af7b1c64c31de55181b
 Description: small, powerful, scalable web/proxy server - documentation
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -747,21 +747,21 @@ Description: small, powerful, scalable web/proxy server - documentation
 
 Package: nginx-extras
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 82
-Depends: nginx-full (>= 2:1.31.4-3nwtf+402+13trixie+v3.1), nginx-full (<< 2:1.31.4-3nwtf+402+13trixie+v3.1.1~), libnginx-mod-http-acme (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-auth-pam (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-dav-ext (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-echo (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-geoip (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-geoip2 (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-image-filter (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-ipdb (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-lua (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-perl (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-uploadprogress (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-upstream-fair (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-xslt-filter (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-mail (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-nchan (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-stream-geoip (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-stream-geoip2 (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-rtmp (= 2:1.31.4-3nwtf+402+13trixie+v3.1)
-Suggests: nginx-doc (= 2:1.31.4-3nwtf+402+13trixie+v3.1)
+Depends: nginx-full (>= 2:1.31.5-1nwtf+402+13trixie+v3.1), nginx-full (<< 2:1.31.5-1nwtf+402+13trixie+v3.1.1~), libnginx-mod-http-acme (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-auth-pam (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-dav-ext (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-echo (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-geoip (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-geoip2 (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-image-filter (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-ipdb (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-lua (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-perl (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-uploadprogress (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-upstream-fair (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-xslt-filter (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-mail (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-nchan (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-stream-geoip (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-stream-geoip2 (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-rtmp (= 2:1.31.5-1nwtf+402+13trixie+v3.1)
+Suggests: nginx-doc (= 2:1.31.5-1nwtf+402+13trixie+v3.1)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-extras_1.31.4-3nwtf+402+13trixie+v3.1_all.deb
-Size: 68816
-SHA256: a761ba1cae1ebcff332f9a02918f1c34d8645ab2b011bc1834ce8eb18d90fe82
-SHA1: c8ec416bfacaa718984f82423261a8b952b1ca4a
-MD5sum: 736866e7313cf37589e5dcb45db78022
+Filename: pool/main/n/nginx/nginx-extras_1.31.5-1nwtf+402+13trixie+v3.1_all.deb
+Size: 68832
+SHA256: 74daab6ae990ebcc714a483dc777228f31f40bbd1936a8436094baebbaa3660a
+SHA1: 8e9166127b662dcc07e31a5d3e98a9145fe584f1
+MD5sum: 391d45d7ee7a69ada85281736b6a82d4
 Description: nginx web/proxy server (extended metapackage)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -789,21 +789,21 @@ Description: nginx web/proxy server (extended metapackage)
 
 Package: nginx-full
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 79
-Depends: nginx (>= 2:1.31.4-3nwtf+402+13trixie+v3.1), nginx (<< 2:1.31.4-3nwtf+402+13trixie+v3.1.1~), libnginx-mod-http-headers-more-filter (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-cache-purge (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-fancyindex (= 2:1.31.4-3nwtf+402+13trixie+v3.1), libnginx-mod-http-subs-filter (= 2:1.31.4-3nwtf+402+13trixie+v3.1)
-Suggests: nginx-doc (= 2:1.31.4-3nwtf+402+13trixie+v3.1)
+Depends: nginx (>= 2:1.31.5-1nwtf+402+13trixie+v3.1), nginx (<< 2:1.31.5-1nwtf+402+13trixie+v3.1.1~), libnginx-mod-http-headers-more-filter (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-cache-purge (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-fancyindex (= 2:1.31.5-1nwtf+402+13trixie+v3.1), libnginx-mod-http-subs-filter (= 2:1.31.5-1nwtf+402+13trixie+v3.1)
+Suggests: nginx-doc (= 2:1.31.5-1nwtf+402+13trixie+v3.1)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-full_1.31.4-3nwtf+402+13trixie+v3.1_all.deb
-Size: 67832
-SHA256: e710045c61dfb0b639a8bf16804e0cc1323a02211e437674b225c9007cd043f1
-SHA1: 58b8d82c1c2775b4f34faddd7b2b2fbfb5a32be2
-MD5sum: 41921c14e272d5b91f09b1eb2f4060d3
+Filename: pool/main/n/nginx/nginx-full_1.31.5-1nwtf+402+13trixie+v3.1_all.deb
+Size: 67836
+SHA256: a5e61acb59503d9a8f556b10bd4e243cbdc970461dce5be36a0642210fd5d80e
+SHA1: 78bc463fc82074fcb11816adf45bc7484b5884a3
+MD5sum: cc04772fbfa59f0f81799568c2257a12
 Description: nginx web/proxy server (standard metapackage)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -814,21 +814,21 @@ Description: nginx web/proxy server (standard metapackage)
 
 Package: nginx-light
 Source: nginx
-Version: 2:1.31.4-3nwtf+402+13trixie+v3.1
+Version: 2:1.31.5-1nwtf+402+13trixie+v3.1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 82
-Depends: nginx-core (>= 2:1.31.4-3nwtf+402+13trixie+v3.1), nginx-core (<< 2:1.31.4-3nwtf+402+13trixie+v3.1.1~)
-Suggests: nginx-doc (= 2:1.31.4-3nwtf+402+13trixie+v3.1)
+Depends: nginx-core (>= 2:1.31.5-1nwtf+402+13trixie+v3.1), nginx-core (<< 2:1.31.5-1nwtf+402+13trixie+v3.1.1~)
+Suggests: nginx-doc (= 2:1.31.5-1nwtf+402+13trixie+v3.1)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-light_1.31.4-3nwtf+402+13trixie+v3.1_all.deb
-Size: 68256
-SHA256: 88e29578249058c96cea700151c12a20324e9df33727f9e2fd3a8ee609c007ca
-SHA1: 23156aeef5e27bedfedbf8fad442aa3380f9a145
-MD5sum: 4b8b0dae0eee2456578239bacd989689
+Filename: pool/main/n/nginx/nginx-light_1.31.5-1nwtf+402+13trixie+v3.1_all.deb
+Size: 68268
+SHA256: 86931c27b27c49857fa7d77c9bfee896a125f8147e7d20797f47d268367f2dfe
+SHA1: 1a727e5e081c6936e4d8bf74f42dba8a6f01c352
+MD5sum: b4980f2efa12fefc9d20eefdd540ae3f
 Description: nginx web/proxy server (basic metapackage)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
