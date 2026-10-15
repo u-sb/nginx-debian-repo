@@ -1,19 +1,19 @@
 Package: libnginx-mod-http-acme
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 11098
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Installed-Size: 11030
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.34), libgcc-s1 (>= 4.2)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-acme_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 3343484
-SHA256: 8265d904a41f3774fc47f91ead870ee0b2757c0d02625692efba0ad0b7f80cfd
-SHA1: b4a9cbce1d96cb1f69b39cbe6f1d830e7c81735f
-MD5sum: 8b57b57ece13ebfb722d41cb4b72c37c
+Filename: pool/main/n/nginx/libnginx-mod-http-acme_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 3328996
+SHA256: ce1c5ae9fbb5d4dcd486fd7e678aabc9c451e5f954eb8470e042f9da64b52640
+SHA1: 3e7cb622f9b21e2097e7859e0048ba931ee1af27
+MD5sum: 5a9c83aaba79f25e93da31549756e683
 Description: ACME protocol support for Nginx
  The ngx_http_acme_module implements the Automatic Certificate Management
  Environment (ACMEv2) protocol (RFC 8555) for automated SSL/TLS certificate
@@ -21,20 +21,20 @@ Description: ACME protocol support for Nginx
 
 Package: libnginx-mod-http-auth-pam
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 64
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17), libpam0g (>= 0.99.7.1)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17), libpam0g (>= 0.99.7.1)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-auth-pam_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 31456
-SHA256: 9672ea203a364edda3833f1e807dad3273ee4023cc021d9780c468e812dd6ebd
-SHA1: 333029b4424c9d54962a8dec28f75515d3999b58
-MD5sum: a274beb1d01c4f21090c8b6cd511a9e6
+Filename: pool/main/n/nginx/libnginx-mod-http-auth-pam_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 31568
+SHA256: 32d00243af1cf540df8cdaebfbe2682c696498ba773f70e8214915fd91f2ccab
+SHA1: 944a9253fedf65ea83eb268f8980e728615c6fde
+MD5sum: 6b93ca3e7f7a4eed91485c1729213b9d
 Description: PAM authentication module for Nginx
  The nginx_http_auth_pam module enables authentication using PAM.
  .
@@ -43,20 +43,20 @@ Description: PAM authentication module for Nginx
 
 Package: libnginx-mod-http-brotli
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 80
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libbrotli1 (>= 0.6.0), libc6 (>= 2.17)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libbrotli1 (>= 0.6.0), libc6 (>= 2.17)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-brotli_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 35192
-SHA256: f509f2ba42b8ce3235ff5bc15f51278f0ad4482dc6b3612e56ea4100983ee557
-SHA1: 9b2793da6bb04fcba160770dfab4e781cfc48699
-MD5sum: 59b5fa7921a83ebe4cc71af0e95797e7
+Filename: pool/main/n/nginx/libnginx-mod-http-brotli_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 35200
+SHA256: 84c63018d8b5cd1910b61c322429462577e8ec98396107cd2cef84e82ca2f6c0
+SHA1: b1a2fc55ab5817d5f86e465e46556340e37c513b
+MD5sum: d3679d926ad472698df21203bd651b88
 Description: Brotli compression module for Nginx
  The ngx_brotli module enables Brotli dynamic compression and static
  pre-compression support for Nginx web server.
@@ -66,20 +66,20 @@ Description: Brotli compression module for Nginx
 
 Package: libnginx-mod-http-cache-purge
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 84
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-cache-purge_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
+Filename: pool/main/n/nginx/libnginx-mod-http-cache-purge_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
 Size: 39264
-SHA256: a4c5ef25a79804106973c117e0eaf1491dd2208b64b7e35b949067132b0942e6
-SHA1: ab20dfcc82f9ef98fb2bb5845d2c1bb2721cc68b
-MD5sum: 10d7b09286de1199de3120d0d61c0f38
+SHA256: e44b4c389b1a715fdbbabab1947a744fda4e2411eae984a27c8323c191e80cdc
+SHA1: e3700cfe46ad178e9955b5aa229c53c2d9856c90
+MD5sum: a8c7b12a6ec83bcb12e48b003603cfbd
 Description: Purge content from Nginx caches
  Cache Purge module adds purging capabilities to Nginx. It allows purging
  content from caches used by all of Nginx proxy modules, like FastCGI, Proxy,
@@ -87,20 +87,20 @@ Description: Purge content from Nginx caches
 
 Package: libnginx-mod-http-dav-ext
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 76
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33), libxml2 (>= 2.7.4)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33), libxml2 (>= 2.7.4)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-dav-ext_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 38544
-SHA256: 125eb0fa6418ae95b5f6cb6e056a018d21e1f81dc75c9e1c997bdfb151c4e6ff
-SHA1: a837aadea10729ac4ed15e59302d5fec0ee3da43
-MD5sum: 9c9fd56c009c5fa601effb28dc30b52d
+Filename: pool/main/n/nginx/libnginx-mod-http-dav-ext_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 38568
+SHA256: a8dc454377cf2a41ef91a7e4567ddfce0ea4f28ddc00460b4b11175cccdea447
+SHA1: 88d55a4b38a4efbf7c7cc6ff922541462b5ec3fa
+MD5sum: 8036b9d847fafc08cb0c2f389dc44691
 Description: WebDAV missing commands support for Nginx
  WebDAV Ext module complements the Nginx WebDAV module to provide a full
  WebDAV support.
@@ -109,20 +109,20 @@ Description: WebDAV missing commands support for Nginx
 
 Package: libnginx-mod-http-echo
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 93
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-echo_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 42468
-SHA256: 3140f8d1ea21a878b30a49a9dc840a144766580916c98c7f1a1805d15c187ec1
-SHA1: 361f86b13c3b895b45e048e98952e3bbf3fce97c
-MD5sum: 7b7f0d6ebb0d920d7b6d5a5f5bcfde4b
+Filename: pool/main/n/nginx/libnginx-mod-http-echo_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 42488
+SHA256: d5609468961cb24dc60374305407b42a6455f87026ca310ad1aa2d51f5f301bd
+SHA1: 58fcda83de7f622e0a06a457ab060e0bb1c96c11
+MD5sum: 6c7464eee2d9f761fe4539471ce9aa09
 Description: Bring echo and more shell style goodies to Nginx
  Echo module wraps lots of Nginx internal APIs for streaming input and output,
  parallel/sequential subrequests, timers and sleeping, as well as various meta
@@ -143,20 +143,20 @@ Description: Bring echo and more shell style goodies to Nginx
 
 Package: libnginx-mod-http-fancyindex
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 77
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33)
 Suggests: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-fancyindex_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 36664
-SHA256: 240a1ee074826a5a29cd2aaab6cbb44f7fbc61382d109e9b53acd5c1a9f388f2
-SHA1: 628a04f56db14d5e923e15ce391c8571e06c151c
-MD5sum: 6b012f418a2d6955f775605f8c703c66
+Filename: pool/main/n/nginx/libnginx-mod-http-fancyindex_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 36676
+SHA256: d96fd310e32e850b9c0c9a616a98ead234066422e9e88a8eb8b5dd59014f6711
+SHA1: 447e273cbd6b9244fc888ac3ec3e0d500131de48
+MD5sum: 2d6ceb041766c34f636b2ea67d51982c
 Description: Fancy indexes module for the Nginx
  The Fancy Index module makes possible the generation of file listings, like
  the built-in autoindex module does, but adding a touch of style by introducing
@@ -164,20 +164,20 @@ Description: Fancy indexes module for the Nginx
 
 Package: libnginx-mod-http-geoip
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 69
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17), libgeoip1 (>= 1.6.12)
+Installed-Size: 61
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-geoip_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 32516
-SHA256: 2ecc885d64728504b844e8d0f4f980fcf3ac3fc1d76aaeccc76aaf4461f8b28a
-SHA1: 87351afdb37432628b514c56eda7d99c1e77feb4
-MD5sum: 104f7d104434ba0d457ed077d1c62926
+Filename: pool/main/n/nginx/libnginx-mod-http-geoip_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 30796
+SHA256: 5adc282e7616145019b76ef2a991585832ec4eba0e76774e8baab009760989c2
+SHA1: b5b6df53e15dd596ce946f30117b6554462ec260
+MD5sum: 8a832c59dc72dac33bf3cc2fa063240a
 Description: GeoIP HTTP module for Nginx
  The ngx_http_geoip module creates variables with values depending on the
  client IP address, using the precompiled MaxMind databases.
@@ -187,20 +187,20 @@ Description: GeoIP HTTP module for Nginx
 
 Package: libnginx-mod-http-geoip2
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 64
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33), libmaxminddb0 (>= 1.0.2)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33), libmaxminddb0 (>= 1.0.2)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-geoip2_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 32988
-SHA256: 4acadb0d9d79f978b99ce7d852faa2a2b58a242bca64c8ee1470ff91d1dac6ce
-SHA1: e46975f66347593f1aa383fc674c3523f3dd9c19
-MD5sum: bb610d82cce76347b9c508a8649af8af
+Filename: pool/main/n/nginx/libnginx-mod-http-geoip2_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 33012
+SHA256: 2bdf0c5c603f167e249827f30ba0feda42ed6be8932e5aaa6ee6b06a72bb9ce0
+SHA1: e4cf187fafbd943089852124fb85fd776187a853
+MD5sum: 1da31582049fe305e08c6e07a9ac038b
 Description: GeoIP2 HTTP module for Nginx
  The ngx_http_geoip2 module creates variables with values depending on the
  client IP address, using the precompiled MaxMind GeoIP2 databases.
@@ -210,20 +210,20 @@ Description: GeoIP2 HTTP module for Nginx
 
 Package: libnginx-mod-http-headers-more-filter
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 77
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-headers-more-filter_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 36656
-SHA256: 594763e154615da945d0800fa710e3c8d55e8bde6010bc73ca478ceab2aa3156
-SHA1: 1938f4050029827f3b82acb8b063074190ccd9de
-MD5sum: fe222b38a3d995d110926c86a7ffc0eb
+Filename: pool/main/n/nginx/libnginx-mod-http-headers-more-filter_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 36672
+SHA256: 6c7c8e87ce17c8806a26edde890be6f374f202bba7b4c86fc8e824a13f0b8b81
+SHA1: 2d46eddaf65e3799d8c9079fde5eb430e533f099
+MD5sum: 8157b3c3f32b2c93fa2a53941d891f2a
 Description: Set and clear input and output headers for Nginx
  The Headers More module allows you to add, set, or clear any output or input
  header that you specify.
@@ -234,20 +234,20 @@ Description: Set and clear input and output headers for Nginx
 
 Package: libnginx-mod-http-image-filter
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 72
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17), libgd3 (>= 2.1.0~alpha~)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17), libgd3 (>= 2.1.0~alpha~)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-image-filter_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 35724
-SHA256: ffd5f1f5ce0594f20c145fa34a130d1bcbbba5c2468ff04209d654236390bdfb
-SHA1: e65bbb20676ecfc8a49d39cee0d30fcf4d141de4
-MD5sum: d8775fe4313a97d01772fdce98b1dfeb
+Filename: pool/main/n/nginx/libnginx-mod-http-image-filter_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 35732
+SHA256: 3de470fe0091af3f4003730e299afa324c987494e6c21d764e512722be3d2e00
+SHA1: a43a8c3f056d8f644af16bbd2218bf5f20b87a8b
+MD5sum: 79ef32230734e22105a75ccc15f34c21
 Description: HTTP image filter module for Nginx
  The ngx_http_image_filter module is a filter that transforms images in JPEG,
  GIF, and PNG formats.
@@ -257,40 +257,40 @@ Description: HTTP image filter module for Nginx
 
 Package: libnginx-mod-http-ipdb
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 69
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17), libjson-c5 (>= 0.15)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17), libjson-c5 (>= 0.15)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-ipdb_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 34132
-SHA256: 1238dde23b27cba7574f39c7690e648ad9d26105ce452e777954b278d703e1af
-SHA1: 61612bc56ef738a81b8acc682cfc03408caebcf8
-MD5sum: 16871dfbf7c710c9664747fc35734450
+Filename: pool/main/n/nginx/libnginx-mod-http-ipdb_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 34452
+SHA256: 202c93f7b2f8b5cecf421b69dd837bcef249b51acc05ebbc7a2caf123aba727e
+SHA1: 8f8917fb09d4a50b0d914ad32e6dd93effc44fa2
+MD5sum: bb5447c6ca96b1876a2c7c7343fbff10
 Description: IPDB IP database support for Nginx
  The ngx_http_ipdb_module enables creating variables with values depending on
  the client IP address using the IPIP.net IPDB database format.
 
 Package: libnginx-mod-http-lua
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 502
-Depends: libnginx-mod-http-ndk (= 1.31.6-1nwtf+403+ubuntu22.04u1), lua-resty-core, nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33), libluajit-5.1-2 (>= 2.0.4+dfsg)
+Depends: libnginx-mod-http-ndk (= 1.31.7-1nwtf+403+ubuntu22.04u1), lua-resty-core, nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33), libluajit-5.1-2 (>= 2.0.4+dfsg)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-lua_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 177648
-SHA256: cb606e0e09cd3788d5412bca460ea836d11933e202f1dffc602b5df85ce4838d
-SHA1: ff8ae36e01c4e4549f2ea938cd8c4cc37950e9f4
-MD5sum: 26f39bb82e81ef079edaf64ee2b0dcae
+Filename: pool/main/n/nginx/libnginx-mod-http-lua_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 177636
+SHA256: cf81824e5088bc893ebe1dd2c77252066f9dc8bdd1c1625cc269e5fc38133fd7
+SHA1: e7465e39dfcc90aa31c96e8bcfdd03d709a73905
+MD5sum: 596ab9e715df816110eab885e4bdca23
 Description: Lua module for Nginx
  Embed Lua runtime into nginx.
  .
@@ -301,20 +301,20 @@ Description: Lua module for Nginx
 
 Package: libnginx-mod-http-ndk
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 63
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-ndk_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 31912
-SHA256: c3fba33bf4c2bcebcbe5b48491c52ed654c37696ef176b7beab05395dbead691
-SHA1: f9090e50949f0ef127ba8abc77ee1c73451a5ed4
-MD5sum: 932d80ae9f01e70b03ef2ca0d00760b1
+Filename: pool/main/n/nginx/libnginx-mod-http-ndk_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 31928
+SHA256: 9e74572d268394a121deaae9e1b5254b20aabb2409be47ac1791e703c7368f09
+SHA1: 14acaf656dd3162913e82367de3ab1513240edec
+MD5sum: 9fa8eae35f12c78419a7c58458640535
 Description: Nginx Development Kit module
  The NDK is an Nginx module that is designed to extend the core functionality of
  the excellent Nginx webserver in a way that can be used as a basis of other
@@ -327,21 +327,21 @@ Description: Nginx Development Kit module
 
 Package: libnginx-mod-http-perl
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 115
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), perl, perlapi-5.34.0, libc6 (>= 2.34), libperl5.34 (>= 5.34.0)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), perl, perlapi-5.34.0, libc6 (>= 2.34), libperl5.34 (>= 5.34.0)
 Recommends: nginx
 Replaces: nginx-extras (<< 1.9.14-1)
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-perl_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 43876
-SHA256: a4d4187e107adf2523c185baf1a4e605c0ba17bf153cc71a81046abeaafee5b4
-SHA1: 27cdfb6980187472b64febc55a5b64c3a2602283
-MD5sum: 43f055ed552c2bedfd8ec32743383671
+Filename: pool/main/n/nginx/libnginx-mod-http-perl_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 43880
+SHA256: 737edc1810b44a6c3c62ab0a4045373621426a78dd397fdb5e105317f8b59809
+SHA1: 1f924d78a021d34c4c65829c642ad04d3dc81042
+MD5sum: 686a2c6cdc96e47b4ef58439e6cef6bf
 Description: Perl module for Nginx
  Embed Perl runtime into nginx.
  .
@@ -352,20 +352,20 @@ Description: Perl module for Nginx
 
 Package: libnginx-mod-http-subs-filter
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 68
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-subs-filter_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 34092
-SHA256: c4aa365696c62dcfe0b9e5b197bf20c0a670916d7d9b21f8e48aaa5ae7c8e56c
-SHA1: 6d737fc3a4bc53ceaee2a9b0b82f7caf13751225
-MD5sum: 6c9106ea1d79fbf99aed7fba2fcfbf7f
+Filename: pool/main/n/nginx/libnginx-mod-http-subs-filter_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 34112
+SHA256: 5c6d445623770b6d6699c9398abd7e9cffebe76d66ad55080f82a72795739bda
+SHA1: afa65fd9aa5f45d545f7c07e36a8ee750bc222ed
+MD5sum: 078f690963a4d388eb8ff2417ab6e102
 Description: Substitution filter module for Nginx
  Subsitution Nginx module can do both regular expression and fixed string
  substitutions on response bodies. The module is quite different from Nginx's
@@ -374,20 +374,20 @@ Description: Substitution filter module for Nginx
 
 Package: libnginx-mod-http-uploadprogress
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 81
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
+Installed-Size: 85
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-uploadprogress_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 37652
-SHA256: edbec49bde6a87d836c7df1f7070c1571f004f14f2dd68f27e0ba05c636a918a
-SHA1: ab47c2e569f604aa2c3e8d0ebd2e9150ea4bf4cb
-MD5sum: 090dcc977a8053a97b63e0fa348b6356
+Filename: pool/main/n/nginx/libnginx-mod-http-uploadprogress_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 37608
+SHA256: 0974e5dd916f0e7b7cb9ebff8984badf1822a5210226353c5e63b1a5094524c0
+SHA1: e1ec3f214fd20e450c7adedbffc1857edeaa784e
+MD5sum: e828713221df4b7a79fa25a1aee363f2
 Description: Upload progress system for Nginx
  Upload progress module is an implementation of an upload progress system, that
  monitors RFC1867 POST uploads as they are transmitted to upstream servers.
@@ -398,20 +398,20 @@ Description: Upload progress system for Nginx
 
 Package: libnginx-mod-http-upstream-fair
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 68
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-upstream-fair_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 34696
-SHA256: 2472e8c3e4352aac6d39655265d288d371d78213002d4fd551d7025d24443ff4
-SHA1: 7994acb310dd36b8747a08f5efacd0eaa04a78ca
-MD5sum: cd07d2970afa023a826a504f30f6b5db
+Filename: pool/main/n/nginx/libnginx-mod-http-upstream-fair_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 34716
+SHA256: 64e4e647d652976b4b372d918006784be34887518dd356e460e059fc6a126cfc
+SHA1: 2b4aa932b43e483add033af6b8aaad4cd4b2d187
+MD5sum: c57c3c20c4d0a468269874bf278c4c4e
 Description: Nginx Upstream Fair Proxy Load Balancer
  The Nginx fair proxy balancer enhances the standard round-robin load balancer
  provided with Nginx so that it tracks busy backend servers and adjusts
@@ -419,20 +419,20 @@ Description: Nginx Upstream Fair Proxy Load Balancer
 
 Package: libnginx-mod-http-xslt-filter
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 72
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-xslt-filter_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 34976
-SHA256: 6d6c1145c7715d6b33b4b10a1f13aa17c58f0b0ede86b971e0f9c79f307cbc1a
-SHA1: ff84bb6e474338428e1e78b0685c7b8ad8ba0a9b
-MD5sum: 64ee074e564a5dfc3b1066b545061308
+Filename: pool/main/n/nginx/libnginx-mod-http-xslt-filter_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 35004
+SHA256: 2e00e920efd55766e6515382a1d3bce5fd440215a0e6f23e9b20d501a9b515bb
+SHA1: 29e8881abf12a1102bb68709d170d51b0e2149af
+MD5sum: 752d46072deab60bb42d0c2b57b2493e
 Description: XSLT Transformation module for Nginx
  The ngx_http_xslt_filter module is a filter that transforms XML responses
  using one or more XSLT stylesheets.
@@ -442,20 +442,20 @@ Description: XSLT Transformation module for Nginx
 
 Package: libnginx-mod-http-zstd
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 613
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-http-zstd_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 213516
-SHA256: ce09a229df67b76bb890387b999ed80a3300249afe05aa01967b5ee05cfb2def
-SHA1: dacecec8b111ef5e40e36a9781211b6e56911c7e
-MD5sum: 924f3058c25599dd2e30efdea06f5e54
+Filename: pool/main/n/nginx/libnginx-mod-http-zstd_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 213492
+SHA256: fbee17ba403df84327ddbb9c693ce058a5bb35de76db925ebc8cbd822b1efaed
+SHA1: 5d2c93f7c17c9d73a0378e43c9c2214220c84306
+MD5sum: 06ad9bbc78c44b17a741ffe3df027611
 Description: Zstandard compression module for Nginx
  The ngx_zstd module enables Zstandard (zstd) dynamic compression and static
  pre-compression support for Nginx web server.
@@ -465,20 +465,20 @@ Description: Zstandard compression module for Nginx
 
 Package: libnginx-mod-mail
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 163
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-mail_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 65720
-SHA256: 15c4d222155794c4c18586d2f9037befa2b28757a105dba82354e3fea5665387
-SHA1: ed79287acf7ae750cf6fa3e8037de5f9a1850c72
-MD5sum: c2b8a1c47cf573e450374970d99fcaf2
+Filename: pool/main/n/nginx/libnginx-mod-mail_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 65712
+SHA256: 49a7c3ef3f41483d96bccf8b3b17f07bd3492bc7e47843d403139a26b9a9acd2
+SHA1: 5645596372204e57ce786e07d61e39533706d843
+MD5sum: 8c21973aaaf598f15e35a7c57a39deb2
 Description: Mail module for Nginx
  The nginx_mail module adds mail proxy support to nginx.
  .
@@ -487,20 +487,20 @@ Description: Mail module for Nginx
 
 Package: libnginx-mod-nchan
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 727
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.29)
+Installed-Size: 731
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.29)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-nchan_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 249616
-SHA256: 1d7876f1c4ec674d195582dc38854e1120aba032919f779ec828729d3f590e9e
-SHA1: 11ba18994d47c7f03e61d299d744f8c14b271d70
-MD5sum: 05e492bb55c11902e17a647fd5daafee
+Filename: pool/main/n/nginx/libnginx-mod-nchan_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 250636
+SHA256: c0169b9c78eadf9f055c3594a6916b21a567ee17054c79230cf193792a3bd5dd
+SHA1: c42ffde6cd2b213fd61ed6377c5c1b57f0219339
+MD5sum: c69db1dafc4360330fac119490e2c3a2
 Description: Fast, flexible pub/sub server for Nginx
  Nchan is a scalable, flexible pub/sub server for the modern web, It can be
  configured as a standalone server, or as a shim between your application and
@@ -513,40 +513,40 @@ Description: Fast, flexible pub/sub server for Nginx
 
 Package: libnginx-mod-rtmp
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 360
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-rtmp_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 138032
-SHA256: 367ac87a6fb392877576113b1cc46af800575db8388add89deef3d7115dd356a
-SHA1: 976fc831d4a1cf3cfa047de10276112e8bb1357c
-MD5sum: 3db9718043b5ae0b232041e9a4bb368f
+Filename: pool/main/n/nginx/libnginx-mod-rtmp_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 138320
+SHA256: 8c1c40684c4a395bf3107b44db1f21baf7a9186aa93763c5647c8704ed67afa8
+SHA1: 7272e59ce2db174d6fd42f258a084ac5a5b2d573
+MD5sum: 7d32eebaf0024f873fb884c3304544d3
 Description: RTMP support for Nginx
  The nginx RTMP module is a fully-featured streaming solution implemented in
  nginx.
 
 Package: libnginx-mod-stream
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 260
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-stream_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 99800
-SHA256: c2e625b932fbfdeaccad5f05fc907b620e6ed9b5d81f0235de043305dedde181
-SHA1: 582f1543b4fcb1180598d6085488bffbaefee607
-MD5sum: 1ccc766ec672aaadee00fc5352cdb5d9
+Filename: pool/main/n/nginx/libnginx-mod-stream_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 100124
+SHA256: 1416bcc42a03e0be0afd0444f79a870df15c13487bd192b5c1f91c8a8f6d6c86
+SHA1: 364708a3ce380f9c69d59fb145612568f8ce682f
+MD5sum: 3879609c82083d92bd6746e86fe9fc61
 Description: Stream module for Nginx
  The nginx_stream module adds stream proxy support to nginx.
  .
@@ -556,20 +556,20 @@ Description: Stream module for Nginx
 
 Package: libnginx-mod-stream-geoip
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 65
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.17), libgeoip1 (>= 1.6.12), libnginx-mod-stream (= 1.31.6-1nwtf+403+ubuntu22.04u1)
+Installed-Size: 60
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-stream (= 1.31.7-1nwtf+403+ubuntu22.04u1)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-stream-geoip_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 31708
-SHA256: 7178b98ef6f221d82c5745c5301790c1c72c56e3c4c18242c6f849f5be8fd5f4
-SHA1: 5a8c53a08412a9e29ab5de808e38d894e784cecc
-MD5sum: 5d8ca546756e2300abbf2cb897d62881
+Filename: pool/main/n/nginx/libnginx-mod-stream-geoip_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 29852
+SHA256: de391116364639ee5e5222bd7ff49b6b0317386e40cb5cabda76d2f61e1c9b27
+SHA1: 9a917920c4f327d2226d50824afd17600e7dccae
+MD5sum: fc9f013652f8754c6b4e97753a2ddf15
 Description: GeoIP Stream module for Nginx
  The ngx_stream_geoip module creates variables with values depending on the
  client IP address, using the precompiled MaxMind databases.
@@ -579,20 +579,20 @@ Description: GeoIP Stream module for Nginx
 
 Package: libnginx-mod-stream-geoip2
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 64
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33), libmaxminddb0 (>= 1.0.2), libnginx-mod-stream (= 1.31.6-1nwtf+403+ubuntu22.04u1)
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), libc6 (>= 2.33), libmaxminddb0 (>= 1.0.2), libnginx-mod-stream (= 1.31.7-1nwtf+403+ubuntu22.04u1)
 Recommends: nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/libnginx-mod-stream-geoip2_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 32616
-SHA256: 3ac9ff1f52df31cb769d0515c449921ea6a9dc2ca2558d3d4777ccbe75386154
-SHA1: d0ae5bb8bc11dc6cec9253386914a9bed1be7c77
-MD5sum: fa61161bca9757a036bcb6fbfd2115d9
+Filename: pool/main/n/nginx/libnginx-mod-stream-geoip2_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 32628
+SHA256: 4c78b5fb8a72b3ce7e4118318fa798394416b3158b1841d1ca05e7ada3464c52
+SHA1: e190c07e077da9bab1f9fe46dd5009faa903fced
+MD5sum: 58cb20c1d09e91d28a6b11f5b9733e88
 Description: GeoIP2 Stream module for Nginx
  The ngx_stream_geoip2 module creates variables with values depending on the
  client IP address, using the precompiled MaxMind GeoIP2 databases.
@@ -601,20 +601,20 @@ Description: GeoIP2 Stream module for Nginx
  code, etc.
 
 Package: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 40
-Depends: nginx-core (>= 1.31.6-1nwtf+403+ubuntu22.04u1), nginx-core (<< 1.31.6-1nwtf+403+ubuntu22.04u1.1~), libnginx-mod-stream (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-brotli (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-zstd (= 1.31.6-1nwtf+403+ubuntu22.04u1)
+Depends: nginx-core (>= 1.31.7-1nwtf+403+ubuntu22.04u1), nginx-core (<< 1.31.7-1nwtf+403+ubuntu22.04u1.1~), libnginx-mod-stream (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-brotli (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-zstd (= 1.31.7-1nwtf+403+ubuntu22.04u1)
 Provides: httpd, httpd-cgi
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx_1.31.6-1nwtf+403+ubuntu22.04u1_all.deb
-Size: 27224
-SHA256: ff45ecfb6d4d7d49eedcadcacbfbfd2f145a1c973f2df172ec8b145243606549
-SHA1: 7676e9ff2d2649727b6952f08280f92958c3e3f5
-MD5sum: ac8b8bd6528b466d6a69786b48cf4d14
+Filename: pool/main/n/nginx/nginx_1.31.7-1nwtf+403+ubuntu22.04u1_all.deb
+Size: 27244
+SHA256: 51665096187c0399eef5b095471d01b5630597875eb509700160c936faa0967f
+SHA1: 8d92d0173aa80625b37d31edf442307ec5861619
+MD5sum: 2266758698bba2c1890514dd31f850f3
 Description: small, powerful, scalable web/proxy server
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -624,7 +624,7 @@ Description: small, powerful, scalable web/proxy server
 
 Package: nginx-common
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 348
@@ -634,11 +634,11 @@ Multi-Arch: foreign
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-common_1.31.6-1nwtf+403+ubuntu22.04u1_all.deb
-Size: 98572
-SHA256: 6cebc6b1d13d1d76581cdfc721d23848c9a9956bda40c3b81ee0e1fce702a6a0
-SHA1: b453561da9867a4ba141793abf908653356c3d78
-MD5sum: deaeaee29ad95303ead40fcaff2982dd
+Filename: pool/main/n/nginx/nginx-common_1.31.7-1nwtf+403+ubuntu22.04u1_all.deb
+Size: 98580
+SHA256: 40263bdc35be1bb2d2431556c18317cb9b7072d19756fd81773f34d1c89a56d1
+SHA1: 7aff6e3b6a7584fc4f89d4da0c91c03d8aeb5072
+MD5sum: 90280acfdc836de340c962b4cae19323
 Description: small, powerful, scalable web/proxy server - common files
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -649,23 +649,23 @@ Description: small, powerful, scalable web/proxy server - common files
 
 Package: nginx-core
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: arm64
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 7707
-Depends: nginx-common (= 1.31.6-1nwtf+403+ubuntu22.04u1), iproute2, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libpcre3, zlib1g (>= 1:1.1.4)
-Suggests: nginx-doc (= 1.31.6-1nwtf+403+ubuntu22.04u1)
+Installed-Size: 7748
+Depends: nginx-common (= 1.31.7-1nwtf+403+ubuntu22.04u1), iproute2, libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libpcre3, zlib1g (>= 1:1.1.4)
+Suggests: nginx-doc (= 1.31.7-1nwtf+403+ubuntu22.04u1)
 Breaks: nginx (<< 1.4.5-1), nginx-full (<< 1.18.0-1)
 Replaces: nginx-full (<< 1.18.0-1)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-core_1.31.6-1nwtf+403+ubuntu22.04u1_arm64.deb
-Size: 2789364
-SHA256: d80240a1b781a89d2832830300cc01f58974bf10dd2cce495953f9f690cb5eff
-SHA1: 9a9634354fda3fcf75da5b6e401c3150c0098bf8
-MD5sum: 1f72528455fa951a5540491205bf69f4
+Filename: pool/main/n/nginx/nginx-core_1.31.7-1nwtf+403+ubuntu22.04u1_arm64.deb
+Size: 2796612
+SHA256: 4c67d5ee5dd2daaba62e0b2f35d8ea23f54d3cdeb0bd5166de080f1c9d560b37
+SHA1: 34223a8b6da09073f81ea34168f026b9b695e294
+MD5sum: 74b60ae13e7a2f37cdcc3e60ba48eae0
 Description: nginx web/proxy server (core binary package)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -676,19 +676,19 @@ Description: nginx web/proxy server (core binary package)
 
 Package: nginx-dev
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Installed-Size: 868
-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (>= 1.31.6-1nwtf+403+ubuntu22.04u1), nginx-core (<< 1.31.6-1nwtf+403+ubuntu22.04u1.1~)
+Installed-Size: 870
+Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (>= 1.31.7-1nwtf+403+ubuntu22.04u1), nginx-core (<< 1.31.7-1nwtf+403+ubuntu22.04u1.1~)
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-dev_1.31.6-1nwtf+403+ubuntu22.04u1_all.deb
-Size: 139784
-SHA256: 6a4e552cf872c4affd1f0dfb3ac1df0888b8bf2d7026480fb96b30fe4d5f2504
-SHA1: 04b9a74e1f4d0a49e1db92d8a11339476a4cac7c
-MD5sum: b76fac8a92a8837d650dafafef04925e
+Filename: pool/main/n/nginx/nginx-dev_1.31.7-1nwtf+403+ubuntu22.04u1_all.deb
+Size: 140164
+SHA256: e894219916ff5b1443c4a982ce61cabaa9c998e00bc1f1482e3672c86cbdce37
+SHA1: 1314e449a2f4b4b424e5472aafb9a8eb550ce479
+MD5sum: 4e1ae970efa0093120540cf514b206ad
 Description: nginx web/proxy server - development headers
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -700,7 +700,7 @@ Description: nginx web/proxy server - development headers
 
 Package: nginx-doc
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 65
@@ -708,11 +708,11 @@ Multi-Arch: foreign
 Homepage: https://nginx.net
 Priority: optional
 Section: doc
-Filename: pool/main/n/nginx/nginx-doc_1.31.6-1nwtf+403+ubuntu22.04u1_all.deb
-Size: 38712
-SHA256: ea0f9ae582ba50a39382c0c3073d20832858121fa77a196f14950937459dbe2e
-SHA1: 52137af1f391cfffdcb0433782abb9596a77eb8b
-MD5sum: 01b401c0c66c826eceaa9a4663364bbc
+Filename: pool/main/n/nginx/nginx-doc_1.31.7-1nwtf+403+ubuntu22.04u1_all.deb
+Size: 38720
+SHA256: 05b845f84a021d35384764f77803051d2968d6b954eebbaf5f8a3f474b18170f
+SHA1: 9493608dc02f6469b8dc7d95db7c10ba42c1e67f
+MD5sum: c289fff4bf9e028ae7fa4192ab6bd077
 Description: small, powerful, scalable web/proxy server - documentation
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -722,21 +722,21 @@ Description: small, powerful, scalable web/proxy server - documentation
 
 Package: nginx-extras
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 44
-Depends: nginx-full (>= 1.31.6-1nwtf+403+ubuntu22.04u1), nginx-full (<< 1.31.6-1nwtf+403+ubuntu22.04u1.1~), libnginx-mod-http-acme (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-auth-pam (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-dav-ext (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-echo (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-geoip (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-geoip2 (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-image-filter (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-ipdb (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-lua (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-perl (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-uploadprogress (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-upstream-fair (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-xslt-filter (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-mail (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-nchan (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-stream-geoip (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-stream-geoip2 (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-rtmp (= 1.31.6-1nwtf+403+ubuntu22.04u1)
-Suggests: nginx-doc (= 1.31.6-1nwtf+403+ubuntu22.04u1)
+Depends: nginx-full (>= 1.31.7-1nwtf+403+ubuntu22.04u1), nginx-full (<< 1.31.7-1nwtf+403+ubuntu22.04u1.1~), libnginx-mod-http-acme (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-auth-pam (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-dav-ext (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-echo (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-geoip (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-geoip2 (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-image-filter (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-ipdb (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-lua (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-perl (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-uploadprogress (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-upstream-fair (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-xslt-filter (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-mail (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-nchan (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-stream-geoip (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-stream-geoip2 (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-rtmp (= 1.31.7-1nwtf+403+ubuntu22.04u1)
+Suggests: nginx-doc (= 1.31.7-1nwtf+403+ubuntu22.04u1)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-extras_1.31.6-1nwtf+403+ubuntu22.04u1_all.deb
-Size: 28584
-SHA256: 3c2cb6d8452a11367bf3f180d037a3eac9a370102412fd3938d90a8d029f6ebc
-SHA1: 0c9fc95e6b6eb940c154af7348fd6963ebb1d093
-MD5sum: 0b22b9586cf000ce4229a7ea4d2f82e7
+Filename: pool/main/n/nginx/nginx-extras_1.31.7-1nwtf+403+ubuntu22.04u1_all.deb
+Size: 28596
+SHA256: 5bdb42e665e8a229654c138e86b80e0bba1b1fcb40fd888289603f9b4917b13c
+SHA1: 2d972b530b2bfdb72d62f26e1acffef26b56ccb4
+MD5sum: d6cc139421407d6b559ea967ab13b03a
 Description: nginx web/proxy server (extended metapackage)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -764,21 +764,21 @@ Description: nginx web/proxy server (extended metapackage)
 
 Package: nginx-full
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 40
-Depends: nginx (>= 1.31.6-1nwtf+403+ubuntu22.04u1), nginx (<< 1.31.6-1nwtf+403+ubuntu22.04u1.1~), libnginx-mod-http-headers-more-filter (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-cache-purge (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-fancyindex (= 1.31.6-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-subs-filter (= 1.31.6-1nwtf+403+ubuntu22.04u1)
-Suggests: nginx-doc (= 1.31.6-1nwtf+403+ubuntu22.04u1)
+Depends: nginx (>= 1.31.7-1nwtf+403+ubuntu22.04u1), nginx (<< 1.31.7-1nwtf+403+ubuntu22.04u1.1~), libnginx-mod-http-headers-more-filter (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-cache-purge (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-fancyindex (= 1.31.7-1nwtf+403+ubuntu22.04u1), libnginx-mod-http-subs-filter (= 1.31.7-1nwtf+403+ubuntu22.04u1)
+Suggests: nginx-doc (= 1.31.7-1nwtf+403+ubuntu22.04u1)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-full_1.31.6-1nwtf+403+ubuntu22.04u1_all.deb
-Size: 27324
-SHA256: af8d0967791ba86571d8feca151a5802dc80d90d289c060667a9429e169b7709
-SHA1: a6a0bb73bde75e26f8edacfc722f1d5ee16339bc
-MD5sum: 9c0dff04887490ad48b31a40b6c03cbf
+Filename: pool/main/n/nginx/nginx-full_1.31.7-1nwtf+403+ubuntu22.04u1_all.deb
+Size: 27336
+SHA256: d02706b92529db3a53370e66c4054b978f43ad293915dbf059ffa73e7dc398af
+SHA1: a75d307d3614b81a5c67a1f94eec472b4e84572f
+MD5sum: bd8225224d2eb3d20f52c1887b20dc17
 Description: nginx web/proxy server (standard metapackage)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -789,21 +789,21 @@ Description: nginx web/proxy server (standard metapackage)
 
 Package: nginx-light
 Source: nginx
-Version: 1.31.6-1nwtf+403+ubuntu22.04u1
+Version: 1.31.7-1nwtf+403+ubuntu22.04u1
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 43
-Depends: nginx-core (>= 1.31.6-1nwtf+403+ubuntu22.04u1), nginx-core (<< 1.31.6-1nwtf+403+ubuntu22.04u1.1~)
-Suggests: nginx-doc (= 1.31.6-1nwtf+403+ubuntu22.04u1)
+Depends: nginx-core (>= 1.31.7-1nwtf+403+ubuntu22.04u1), nginx-core (<< 1.31.7-1nwtf+403+ubuntu22.04u1.1~)
+Suggests: nginx-doc (= 1.31.7-1nwtf+403+ubuntu22.04u1)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-light_1.31.6-1nwtf+403+ubuntu22.04u1_all.deb
-Size: 27740
-SHA256: 262a182234214b9ccfd866ecf6402f152c087c8da26c4d748158b7700e9b740e
-SHA1: e0c499175cb644659572b697144d8186914c8a62
-MD5sum: f598d8e08adf8609c362b0fb45f3eedb
+Filename: pool/main/n/nginx/nginx-light_1.31.7-1nwtf+403+ubuntu22.04u1_all.deb
+Size: 27756
+SHA256: 38017cde000c06b259d52c0d62ee43d3ac3d4e721306097b11eb849e0f7e63ee
+SHA1: 423dc4432db7416f305f1ded2727ffab6ac220cf
+MD5sum: 4a98fcff28fd313f722cecb372759be9
 Description: nginx web/proxy server (basic metapackage)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
