@@ -24,20 +24,20 @@ Description: New FFI-based Lua API for NGINX Lua module
  is always interpreted (slowly).
 
 Package: nginx
-Version: 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3
+Version: 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 19
-Depends: nginx-core (>= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), nginx-core (<< 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3.1~), libnginx-mod-stream (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-brotli (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-zstd (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3)
+Depends: nginx-core (>= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), nginx-core (<< 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3.1~), libnginx-mod-stream (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-brotli (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-zstd (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3)
 Provides: httpd, httpd-cgi
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx_1.31.9-1nwtf+403+ubuntu26.04u1+v3_all.deb
-Size: 5464
-SHA256: b1acceb8d9380ae68a4a222898633f0e9045cbc8bb01f13ff5cc61922045b570
-SHA1: 2f35b8255f55faa6c55076247d13a2b70b7d4574
-MD5sum: 1aa7d0cc8ef8eb283e272bbb83e9b512
+Filename: pool/main/n/nginx/nginx_1.31.10-1nwtf+403+ubuntu26.04u1+v3_all.deb
+Size: 5468
+SHA256: 2f340fcef736e9c9310c4c8130116dbf6044d089ded40c91a074f1ab55288c6e
+SHA1: ccda2c5b2d2fe92b1d8c7be32207a7150551bed9
+MD5sum: 01c68456638c3952c4fbd710345b8c81
 Description: small, powerful, scalable web/proxy server
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -47,7 +47,7 @@ Description: small, powerful, scalable web/proxy server
 
 Package: nginx-common
 Source: nginx
-Version: 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3
+Version: 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 323
@@ -57,11 +57,11 @@ Multi-Arch: foreign
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-common_1.31.9-1nwtf+403+ubuntu26.04u1+v3_all.deb
-Size: 73416
-SHA256: 4df143379df22239ce96b7c34b58d553cbc1c7c79f7f9fd23aa18cfab7d1bb8b
-SHA1: 04b3aef24accbc1b5e2b1ef9b90f1160279becb8
-MD5sum: 428595bbee5eb2adac8273c3b7681dd0
+Filename: pool/main/n/nginx/nginx-common_1.31.10-1nwtf+403+ubuntu26.04u1+v3_all.deb
+Size: 73444
+SHA256: fed3b9c4d886dab501e94a38ebdb5ec6b1f489310cc9cd90f1d4ac882153d212
+SHA1: 3d9e8f6d77324f710b9deda5ce39173b3c7386f7
+MD5sum: ad89e91ac2389a114628c1e5fe883568
 Description: small, powerful, scalable web/proxy server - common files
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -72,19 +72,19 @@ Description: small, powerful, scalable web/proxy server - common files
 
 Package: nginx-dev
 Source: nginx
-Version: 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3
+Version: 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 847
-Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (>= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), nginx-core (<< 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3.1~)
+Depends: debhelper-compat (= 13), dpkg-dev (>= 1.15.5), libgd-dev, libgeoip-dev, libpcre3-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, quilt, zlib1g-dev, nginx-core (>= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), nginx-core (<< 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3.1~)
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-dev_1.31.9-1nwtf+403+ubuntu26.04u1+v3_all.deb
-Size: 117208
-SHA256: e773ce3cf3844f36d73c166ab83df763656b83d2bc6b8c26e8fb1d154b677ac7
-SHA1: 4732600c6aa2b9e01eeab3359f9a75a656a0f0ca
-MD5sum: 5beaf427edfa6cabc3258cbca117c923
+Filename: pool/main/n/nginx/nginx-dev_1.31.10-1nwtf+403+ubuntu26.04u1+v3_all.deb
+Size: 117204
+SHA256: a26e5fecc1974ee8bf415650aab0114fd9a86a2d8f84cb96b18110eaa2e6cd60
+SHA1: 6f74edd2aaa8a2e34b23f13a6696903a75f88150
+MD5sum: b74caa3b0f47b4c8637939efd028ccdb
 Description: nginx web/proxy server - development headers
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -96,7 +96,7 @@ Description: nginx web/proxy server - development headers
 
 Package: nginx-doc
 Source: nginx
-Version: 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3
+Version: 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 44
@@ -104,11 +104,11 @@ Multi-Arch: foreign
 Homepage: https://nginx.net
 Priority: optional
 Section: doc
-Filename: pool/main/n/nginx/nginx-doc_1.31.9-1nwtf+403+ubuntu26.04u1+v3_all.deb
-Size: 16920
-SHA256: 4f197853cd32fccf49da08ad90e08db4d4cee2c99567502ad6b005ab7500496b
-SHA1: 8268c8c542cbf44ac719662bda90e152c3e432d4
-MD5sum: 8070c6c4d363701023899616dbda74a9
+Filename: pool/main/n/nginx/nginx-doc_1.31.10-1nwtf+403+ubuntu26.04u1+v3_all.deb
+Size: 16928
+SHA256: 0aac70ea84450840efe22e83f1098cfc678bfe9ed6a9e6e94972733aa86cf8ac
+SHA1: 6640400221d54c827d4adb84b12189f3eae90316
+MD5sum: 12bd89c044f77e347848d4faa53f3e8e
 Description: small, powerful, scalable web/proxy server - documentation
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -118,21 +118,21 @@ Description: small, powerful, scalable web/proxy server - documentation
 
 Package: nginx-extras
 Source: nginx
-Version: 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3
+Version: 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 22
-Depends: nginx-full (>= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), nginx-full (<< 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3.1~), libnginx-mod-http-acme (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-auth-pam (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-dav-ext (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-echo (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-geoip (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-geoip2 (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-image-filter (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-ipdb (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-lua (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-perl (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-uploadprogress (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-upstream-fair (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-xslt-filter (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-mail (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-nchan (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-stream-geoip (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-stream-geoip2 (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-rtmp (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3)
-Suggests: nginx-doc (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3)
+Depends: nginx-full (>= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), nginx-full (<< 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3.1~), libnginx-mod-http-acme (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-auth-pam (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-dav-ext (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-echo (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-geoip (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-geoip2 (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-image-filter (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-ipdb (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-lua (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-perl (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-uploadprogress (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-upstream-fair (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-xslt-filter (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-mail (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-nchan (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-stream-geoip (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-stream-geoip2 (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-rtmp (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3)
+Suggests: nginx-doc (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-extras_1.31.9-1nwtf+403+ubuntu26.04u1+v3_all.deb
-Size: 6552
-SHA256: 11a8a2bcf3e19b06f9df536f1b966a98c70054dc760e72ddf7f8a12749392ccb
-SHA1: 8c73de69acaef04ec3c8fb735ebdd33b354c7165
-MD5sum: 094184430fff8b8622215df14211704a
+Filename: pool/main/n/nginx/nginx-extras_1.31.10-1nwtf+403+ubuntu26.04u1+v3_all.deb
+Size: 6560
+SHA256: 32d6e7a300e32af96785000c4122073076220c14dcaba255168a1b71dd9936b1
+SHA1: 079d15efeb8892791a533ab20543500afc9c8e8f
+MD5sum: 24eb1dfbccc939d0e7f1859a45ae9180
 Description: nginx web/proxy server (extended metapackage)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -160,21 +160,21 @@ Description: nginx web/proxy server (extended metapackage)
 
 Package: nginx-full
 Source: nginx
-Version: 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3
+Version: 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 19
-Depends: nginx (>= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), nginx (<< 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3.1~), libnginx-mod-http-headers-more-filter (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-cache-purge (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-fancyindex (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-subs-filter (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3)
-Suggests: nginx-doc (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3)
+Depends: nginx (>= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), nginx (<< 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3.1~), libnginx-mod-http-headers-more-filter (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-cache-purge (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-fancyindex (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), libnginx-mod-http-subs-filter (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3)
+Suggests: nginx-doc (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-full_1.31.9-1nwtf+403+ubuntu26.04u1+v3_all.deb
-Size: 5556
-SHA256: 7d8d7fc3b3487f1e7866dbb52399abae68635cf540ae02c3fc80fe3d84ed809f
-SHA1: dffaebf830fffd9f4eeec9a920996b3e53c613a8
-MD5sum: f8353651d3aa4e84fde8a9d365d95ba3
+Filename: pool/main/n/nginx/nginx-full_1.31.10-1nwtf+403+ubuntu26.04u1+v3_all.deb
+Size: 5564
+SHA256: 40db31167ecd5d686ac7df5b4d28be73c7408f16568e8a8c167d229945904a46
+SHA1: 0a7ebb96feb3c813c4a7a444842861a852ef0957
+MD5sum: 1a628ec962c6c44aac3dd3c90d9b031a
 Description: nginx web/proxy server (standard metapackage)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
@@ -185,21 +185,21 @@ Description: nginx web/proxy server (standard metapackage)
 
 Package: nginx-light
 Source: nginx
-Version: 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3
+Version: 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3
 Architecture: all
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
 Installed-Size: 22
-Depends: nginx-core (>= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3), nginx-core (<< 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3.1~)
-Suggests: nginx-doc (= 2:1.31.9-1nwtf+403+ubuntu26.04u1+v3)
+Depends: nginx-core (>= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3), nginx-core (<< 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3.1~)
+Suggests: nginx-doc (= 2:1.31.10-1nwtf+403+ubuntu26.04u1+v3)
 Provides: httpd, httpd-cgi, nginx
 Homepage: https://nginx.net
 Priority: optional
 Section: httpd
-Filename: pool/main/n/nginx/nginx-light_1.31.9-1nwtf+403+ubuntu26.04u1+v3_all.deb
-Size: 5976
-SHA256: 9a8194a028ba2f906ff8bd97c9ef7d7cbc4b43790ec9a3e28fbd2b3feaea045d
-SHA1: 523dc59a71c6d91fd626b75154f1c80c329ff809
-MD5sum: 2389080aa12a9a8825f6a25636d49b40
+Filename: pool/main/n/nginx/nginx-light_1.31.10-1nwtf+403+ubuntu26.04u1+v3_all.deb
+Size: 5988
+SHA256: 58a33bece4920ee77cd61ffc05644d8d4291a7242124e628119422ffa12184cb
+SHA1: c35a35f42b7881091c7842d38e87bf57b438731f
+MD5sum: 1730308148681accef2878a69cf3d3ef
 Description: nginx web/proxy server (basic metapackage)
  Nginx ("engine X") is a high-performance web and reverse proxy server
  created by Igor Sysoev. It can be used both as a standalone web server
